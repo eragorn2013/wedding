@@ -45,7 +45,7 @@
 				<div class="content">
 					<div class="m-menu"></div>					
 					<ul class="nav-list">
-						<li class="nav-list-item submenu active">
+						<li class="nav-list-item submenu">
 							<a class="nav-list-item-link submenu-icon" href="#">Площадки</a>
 							<div class="nav-list-item-submenu">
 								<ul class="nav-list-item-submenu-list">
@@ -58,7 +58,7 @@
 								</ul>
 							</div>
 						</li>
-						<li class="nav-list-item submenu">
+						<li class="nav-list-item submenu active">
 							<a class="nav-list-item-link submenu-icon" href="#">Исполнители</a>
 							<div class="nav-list-item-submenu">
 								<ul class="nav-list-item-submenu-list">
@@ -80,6 +80,22 @@
 				</div>
 			</div>
 		</nav>
+
+		<section id="offer">
+			<div class="container">
+				<div class="content offer-content">
+					<h1 class="offer-h">Фотографы Петропавловск-Камчатска</h1>
+					<select class="offer-select" name="photographers">
+						<option value="1">Другие исполнители</option>
+						<option value="2">Имя Фамилия</option>
+						<option value="3">Имя Фамилия</option>
+						<option value="4">Имя Фамилия</option>
+						<option value="5">Имя Фамилия</option>
+					</select>
+				</div>
+			</div>
+			<div class="offer-waves"></div>
+		</section>
 
 		
 		<section id="socials">
@@ -165,6 +181,12 @@
 		.nav-list-item-link.submenu-icon:after, .header-logo-link-city-icon,		
 		.socials-link-icon, .m-menu{				
 			background-image: url(img/icons<?= $expansion ?>);
+		}
+		.offer-waves {
+		    background-image: url(img/waves.webp);
+		}
+		#offer{
+			background-image: url(img/bg.webp);
 		}		
 		@media (max-width: 920px) and (min-width:640px){
 			.head-left:after{
