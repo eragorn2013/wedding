@@ -128,6 +128,10 @@
 
 					<div class="best-content-wrap">
 						<div class="best-item">
+							<a class="best-item-favorite" href="#">
+								<i class="best-item-favorite-icon"></i>
+								<span class="best-item-favorite-span">В избранное</span>
+							</a>
 							<div class="best-item-left">
 								<div class="best-item-left-avatar">
 									<img class="best-item-left-avatar-img" src="img/photographers/1<?= $expansion ?>" alt="">
@@ -167,6 +171,58 @@
 								</div>
 								<div class="best-item-right-desc">
 									Каждый момент свадьбы я переживаю вместе с вами, немного волнуясь на сборах, обнимая вас после регистрации, пуская слезу, когда идёт танец отца и дочери. Первую свадьбу я отснял ещё в 2011 году и до сих пор кайфую от свадеб. И отвечая на вопрос коллег: — нет, не надоело! Как может надоесть чуть ли не самое эмоциональное и трогательное событие в жизни людей, которое заряжает тебя энергией.
+								</div>
+								<div class="best-item-right-portfolio">
+									<h3 class="best-item-right-portfolio-head">Примеры работ:</h3>
+									<div class="best-item-right-portfolio-wrap portfolio-wrap">
+										<a class="best-item-right-portfolio-item" href="img/portfolio/1<?= $expansion ?>">
+											<img class="best-item-right-portfolio-item-img" src="img/portfolio/1<?= $expansion ?>" alt="">
+										</a>
+										<a class="best-item-right-portfolio-item" href="img/portfolio/2<?= $expansion ?>">
+											<img class="best-item-right-portfolio-item-img" src="img/portfolio/2<?= $expansion ?>" alt="">
+										</a>
+										<a class="best-item-right-portfolio-item" href="img/portfolio/3<?= $expansion ?>">
+											<img class="best-item-right-portfolio-item-img" src="img/portfolio/3<?= $expansion ?>" alt="">
+										</a>
+										<a class="best-item-right-portfolio-item" href="img/portfolio/4<?= $expansion ?>">
+											<img class="best-item-right-portfolio-item-img" src="img/portfolio/4<?= $expansion ?>" alt="">
+										</a>
+										<a class="best-item-right-portfolio-item" href="img/portfolio/5<?= $expansion ?>">
+											<img class="best-item-right-portfolio-item-img" src="img/portfolio/5<?= $expansion ?>" alt="">
+										</a>
+										<a class="best-item-right-portfolio-item" href="img/portfolio/6<?= $expansion ?>">
+											<img class="best-item-right-portfolio-item-img" src="img/portfolio/6<?= $expansion ?>" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="best-item-right-services">
+									<h3 class="best-item-right-services-head">Услуги:</h3>
+									<div class="best-item-right-services-wrap">
+										<a class="best-item-right-services-item" href="#">
+											<img class="best-item-right-services-item-img" src="img/services/1<?= $expansion ?>" alt="">
+											<span class="best-item-right-services-item-name">Фотосъемка</span>
+										</a>
+										<a class="best-item-right-services-item" href="#">
+											<img class="best-item-right-services-item-img" src="img/services/2<?= $expansion ?>" alt="">
+											<span class="best-item-right-services-item-name">Видеосъемка</span>
+										</a>
+										<a class="best-item-right-services-item" href="#">
+											<img class="best-item-right-services-item-img" src="img/services/3<?= $expansion ?>" alt="">
+											<span class="best-item-right-services-item-name">Фотосъемка свадьбы</span>
+										</a>
+										<a class="best-item-right-services-item" href="#">
+											<img class="best-item-right-services-item-img" src="img/services/4<?= $expansion ?>" alt="">
+											<span class="best-item-right-services-item-name">Фотокнига</span>
+										</a>
+										<a class="best-item-right-services-item" href="#">
+											<img class="best-item-right-services-item-img" src="img/services/1<?= $expansion ?>" alt="">
+											<span class="best-item-right-services-item-name">Фотосъемка</span>
+										</a>
+										<a class="best-item-right-services-item" href="#">
+											<img class="best-item-right-services-item-img" src="img/services/2<?= $expansion ?>" alt="">
+											<span class="best-item-right-services-item-name">Видеосъемка</span>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -256,7 +312,8 @@
 		.head-left:before, .head-center:before, .head-center:after,		
 		.nav-list-item-link.submenu-icon:after, .header-logo-link-city-icon,		
 		.socials-link-icon, .m-menu, .best-item-left-contacts-phone:before,
-		.best-item-left-contacts-socials-link.inst:before, .best-item-left-contacts-socials-link.vk:before{				
+		.best-item-left-contacts-socials-link.inst:before, .best-item-left-contacts-socials-link.vk:before,
+		.best-item-favorite-icon{				
 			background-image: url(img/icons<?= $expansion ?>);
 		}
 		.offer-waves {

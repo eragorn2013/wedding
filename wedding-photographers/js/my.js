@@ -11,7 +11,7 @@ $(window).on('resize', function(){
 
 /*lightgallery*/
 
-$('.best-wrap').lightGallery();
+$('.portfolio-wrap').lightGallery();
 
 /*Открываем видео*/
 
