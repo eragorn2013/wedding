@@ -104,27 +104,64 @@
 				<div class="content best-content">
 					<form class="best-form-search" action="#" method="post">
 						<select class="best-form-search-select" name="date">
-							<option value="1" disabled>Дата мероприятия</option>
+							<option value="1" disabled selected>Дата мероприятия</option>
 							<option value="2">26.09.2019</option>
 							<option value="3">27.09.2019</option>
 							<option value="4">28.09.2019</option>
 							<option value="5">29.09.2019</option>
 						</select>
 						<select class="best-form-search-select" name="price">
-							<option value="1" disabled>Стоимость съемки</option>
+							<option value="1" disabled selected>Стоимость съемки</option>
 							<option value="2">500-1000</option>
 							<option value="3">1000-2000</option>
 							<option value="4">2000-4000</option>
 							<option value="5">4000-8000</option>
 						</select>
 						<select class="best-form-search-select" name="specialization">
-							<option value="1">Специализация</option>
+							<option value="1" selected>Специализация</option>
 							<option value="2">Фотограф</option>
 							<option value="3">Видеограф</option>							
 						</select>
 						<input class="best-form-search-input" type="text" name="name-photographer" placeholder="Имя Фотографа">
 						<button class="best-form-search-submit">Найти</button>
 					</form>
+
+					<div class="best-content-wrap">
+						<div class="best-item">
+							<div class="best-item-left">
+								<div class="best-item-left-avatar">
+									<img class="best-item-left-avatar-img" src="img/photographers/1<?= $expansion ?>" alt="">
+									<span class="best-item-left-avatar-pro">pro</span>
+								</div>
+								<div class="best-item-left-contacts">
+									<div class="best-item-left-contacts-phone">+7 (000) 123 45 67</div>
+									<div class="best-item-left-contacts-socials">
+										<a class="best-item-left-contacts-socials-link inst" href="#">инстаграм</a>
+										<a class="best-item-left-contacts-socials-link vk" href="#">вконтакте</a>
+									</div>
+								</div>
+								<div class="best-item-left-date">
+									<select class="best-item-left-date-select" name="date">
+										<option value="1" disabled selected>Свободные даты</option>
+										<option value="2">26.09.2019</option>
+										<option value="3">27.09.2019</option>
+										<option value="4">28.09.2019</option>
+										<option value="5">29.09.2019</option>
+									</select>
+								</div>
+								<ul class="best-item-left-list">
+									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Отзывы невест - <span class="best-item-left-list-link-count">67</span></a></li>
+									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Услуги Ларисы - <span class="best-item-left-list-link-count">23</span></a></li>
+									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Акции и скидки - <span class="best-item-left-list-link-count">2</span></a></li>
+									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Вопросы и ответы</a></li>
+									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Статьи с Ларисой - <span class="best-item-left-list-link-count">7</span></a></li>
+									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Видео с Ларисой - <span class="best-item-left-list-link-count">3</span></a></li>
+								</div>
+							</div>
+							<div class="best-item-right">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>		
@@ -209,7 +246,8 @@
 	<style type="text/css">
 		.head-left:before, .head-center:before, .head-center:after,		
 		.nav-list-item-link.submenu-icon:after, .header-logo-link-city-icon,		
-		.socials-link-icon, .m-menu{				
+		.socials-link-icon, .m-menu, .best-item-left-contacts-phone:before,
+		.best-item-left-contacts-socials-link.inst:before, .best-item-left-contacts-socials-link.vk:before{				
 			background-image: url(img/icons<?= $expansion ?>);
 		}
 		.offer-waves {

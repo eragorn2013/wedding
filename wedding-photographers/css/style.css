@@ -321,6 +321,163 @@ header{
 	transition: all 0.2s ease-out;
 }
 
+.best-content-wrap{
+	margin-top: 60px;
+}
+.best-item{
+	background: #FAF6F4;
+	border-radius: 30px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.best-item-left{
+	width: 24%;
+}
+.best-item-left-avatar{
+	position: relative;
+	border-radius: 30px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	width: 250px;
+	height: 250px;
+	margin-bottom: 16px;
+}
+.best-item-left-avatar-img{
+	border-radius: 30px;
+	display: block;
+	width: 100%;
+}
+.best-item-left-avatar-pro{
+	position: absolute;
+    top: 9px;
+    right: 9px;
+    text-align: center;
+    color: #8f7a99;
+    background: #fff;
+    border-radius: 30px;
+    padding: 6px 18px;
+    text-transform: uppercase;
+}
+.best-item-left-contacts{
+	text-align: center;
+}	
+.best-item-left-contacts-phone{
+	font-family: Forum;	
+	font-size: 18px;
+	line-height: 25px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 13px;
+	color: #424443;
+}
+.best-item-left-contacts-phone:before{
+	content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: -20px;
+    top: 4px;
+    background-size: 294px;
+    background-repeat: no-repeat;
+    background-position: -87px -166px;
+}
+.best-item-left-contacts-socials{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.best-item-left-contacts-socials-link{
+	display: block;
+	width: 43px;
+	height: 43px;
+	background: #ABC2B0;
+	border-radius: 50%;
+	font-size: 0px;
+	transition: all 0.2s ease-out;
+	position: relative;
+	margin-right: 7px;
+}
+.best-item-left-contacts-socials-link:hover{
+	background: #96b49d;
+	transition: all 0.2s ease-out;
+}
+.best-item-left-contacts-socials-link.inst:before{
+	content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: calc(50% - 17px / 2);
+    left: calc(50% - 17px / 2);
+    background-size: 326px;
+    background-position: -42px -187px;
+    background-repeat: no-repeat;
+}
+.best-item-left-contacts-socials-link.vk:before{
+	content: "";
+    position: absolute;
+    width: 23px;
+    height: 13px;
+    top: calc(50% - 13px / 2);
+    left: calc(50% - 23px / 2);
+    background-size: 326px;
+    background-position: -67px -188px;
+    background-repeat: no-repeat;
+}
+.best-item-left-date{
+
+}
+.best-item-left-date-select{
+	border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #b0b0b0;
+    line-height: 24px;
+    padding: 14px 10px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    background: none;
+    width: 250px;
+    box-sizing: border-box;
+}
+.best-item-left-list{
+
+}
+.best-item-left-list-li{
+	text-align: center;
+	margin-bottom: 12px;
+}
+.best-item-left-list-link{
+	position: relative;
+	font-size: 18px;
+	line-height: 21px;
+	color: #676868;
+	font-family: Forum;
+}
+.best-item-left-list-link:before{
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    z-index: 2;
+    background: #abc2b0;
+    opacity: 0;
+    transition: all .2s ease;
+}
+.best-item-left-list-li:hover > .best-item-left-list-link:before{
+	transition: all .2s ease;
+    opacity: 1;
+}
+.best-item-left-list-link-count{
+
+}
+.best-item-right{
+
+}
+
+
 #socials{
 
 }
