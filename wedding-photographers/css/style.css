@@ -244,7 +244,7 @@ header{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.5);
 }
 .offer-content{
 	padding: 111px 0 209px;
@@ -280,6 +280,45 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
+}
+
+#best{
+	padding: 54px 0;
+}
+.best-content{
+	padding-top: 8px;
+}
+.best-form-search{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.best-form-search-select,
+.best-form-search-input{
+	border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #b0b0b0;
+    line-height: 24px;
+    padding: 14px 16px;
+    cursor: pointer;  
+    width: 21.9%;  
+}
+.best-form-search-input{
+
+}
+.best-form-search-submit{
+	background: #ABC2B0;
+	border-radius: 30px;
+	border: 0;
+	padding: 16px 33px;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+}
+.best-form-search-submit:hover{
+	background: #96b49d;
+	transition: all 0.2s ease-out;
 }
 
 #socials{
