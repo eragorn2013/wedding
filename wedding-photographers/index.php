@@ -156,9 +156,18 @@
 									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Вопросы и ответы</a></li>
 									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Статьи с Ларисой - <span class="best-item-left-list-link-count">7</span></a></li>
 									<li class="best-item-left-list-li"><a class="best-item-left-list-link" href="#">Видео с Ларисой - <span class="best-item-left-list-link-count">3</span></a></li>
-								</div>
+								</ul>
 							</div>
 							<div class="best-item-right">
+								<div class="best-item-right-name">Назарова Лариса, <span class="best-item-right-name-text">фотограф в Петропавловск-Камчатском</span></div>
+								<div class="best-item-right-price">
+									<span class="best-item-right-price-span text">Стоимость: </span>
+									<span class="best-item-right-price-span old">200 000р.</span>
+									<span class="best-item-right-price-span new">170 000р.</span>
+								</div>
+								<div class="best-item-right-desc">
+									Каждый момент свадьбы я переживаю вместе с вами, немного волнуясь на сборах, обнимая вас после регистрации, пуская слезу, когда идёт танец отца и дочери. Первую свадьбу я отснял ещё в 2011 году и до сих пор кайфую от свадеб. И отвечая на вопрос коллег: — нет, не надоело! Как может надоесть чуть ли не самое эмоциональное и трогательное событие в жизни людей, которое заряжает тебя энергией.
+								</div>
 							</div>
 						</div>
 					</div>

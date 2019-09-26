@@ -329,6 +329,9 @@ header{
 	border-radius: 30px;
 	padding: 20px;
 	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .best-item-left{
 	width: 24%;
@@ -425,9 +428,6 @@ header{
     background-position: -67px -188px;
     background-repeat: no-repeat;
 }
-.best-item-left-date{
-
-}
 .best-item-left-date-select{
 	border: 1px solid #e7e7e7;
     box-sizing: border-box;
@@ -440,9 +440,6 @@ header{
     background: none;
     width: 250px;
     box-sizing: border-box;
-}
-.best-item-left-list{
-
 }
 .best-item-left-list-li{
 	text-align: center;
@@ -470,11 +467,46 @@ header{
 	transition: all .2s ease;
     opacity: 1;
 }
-.best-item-left-list-link-count{
+.best-item-right{
+	width: 76%;
+}
+.best-item-right-name{
+	font-size: 35px;
+	line-height: 28px;
+	font-family: Forum;
+	color: #424443;
+	margin-bottom: 28px;
+}
+.best-item-right-name-text{
+	font-size: 16px;
+	line-height: 24px;
+	font-family: Roboto;
+	color: #B0B0B0;
+}
+.best-item-right-price{
+	margin-bottom: 28px;
+}
+.best-item-right-price-span{
+	font-size: 18px;
+	line-height: 25px;
+	font-family: Forum;
+	color: #424443;
+	margin-right: 10px;
+}
+.best-item-right-price-span.text{
 
 }
-.best-item-right{
+.best-item-right-price-span.old{
+	color: #ABC2B0;
+	text-decoration-line: line-through;
+}
+.best-item-right-price-span.new{
 
+}
+.best-item-right-desc{
+	font-size: 16px;
+	line-height: 24px;
+	color: #B0B0B0;
 }
 
 
