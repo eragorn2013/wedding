@@ -203,8 +203,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -213,8 +213,8 @@
 											<span class="best-item-right-services-item-name">Видеосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -223,8 +223,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка свадьбы</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -233,8 +233,8 @@
 											<span class="best-item-right-services-item-name">Фотокнига</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -243,8 +243,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -253,8 +253,8 @@
 											<span class="best-item-right-services-item-name">Видеосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -335,8 +335,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -345,8 +345,8 @@
 											<span class="best-item-right-services-item-name">Видеосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -355,8 +355,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка свадьбы</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -365,8 +365,8 @@
 											<span class="best-item-right-services-item-name">Фотокнига</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>										
@@ -447,8 +447,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -457,8 +457,8 @@
 											<span class="best-item-right-services-item-name">Видеосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -467,8 +467,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка свадьбы</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -477,8 +477,8 @@
 											<span class="best-item-right-services-item-name">Фотокнига</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>										
@@ -559,8 +559,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -569,8 +569,8 @@
 											<span class="best-item-right-services-item-name">Видеосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -579,8 +579,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка свадьбы</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -589,8 +589,8 @@
 											<span class="best-item-right-services-item-name">Фотокнига</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>										
@@ -671,8 +671,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -681,8 +681,8 @@
 											<span class="best-item-right-services-item-name">Видеосъемка</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -691,8 +691,8 @@
 											<span class="best-item-right-services-item-name">Фотосъемка свадьбы</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>
@@ -701,8 +701,8 @@
 											<span class="best-item-right-services-item-name">Фотокнига</span>
 											<span class="best-item-right-services-item-hidden">
 												<span class="best-item-right-services-item-hidden-wrap">
-													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
-													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+													<span class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+													<span class="best-item-right-services-item-hidden-link">Подробнее</span>
 												</span>
 											</span>
 										</a>										
@@ -712,7 +712,7 @@
 						</div>
 					</div>
 					<div class="pagination">						
-						<a class="pagination-arrow left" href="#"><</a>
+						<a class="pagination-arrow left" href="#">&lt;</a>
 						<div class="pagination-wrap">
 							<a class="pagination-link active" href="#">1</a>
 							<a class="pagination-link" href="#">2</a>
@@ -721,7 +721,7 @@
 							<span class="pagination-points">...</span>
 							<a class="pagination-link" href="#">99</a>
 						</div>
-						<a class="pagination-arrow right" href="#">></a>						
+						<a class="pagination-arrow right" href="#">&gt;</a>						
 					</div>
 				</div>
 			</div>
@@ -819,7 +819,7 @@
 	<script src='js/lightgallery/dist/js/lightgallery.min.js'></script>
 	<script src='js/lightgallery/modules/lg-video.min.js'></script>
 	<script src="js/my.js?2409191705"></script>	
-	<style type="text/css">
+	<style>
 		.head-left:before, .head-center:before, .head-center:after,		
 		.nav-list-item-link.submenu-icon:after, .header-logo-link-city-icon,		
 		.socials-link-icon, .m-menu, .best-item-left-contacts-phone:before,
