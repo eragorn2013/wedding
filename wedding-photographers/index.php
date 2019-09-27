@@ -846,12 +846,12 @@
     <link rel="stylesheet" type="text/css" href="js/owlcarousel/dist/assets/owl.theme.green.css">
     <link rel="stylesheet" type="text/css" href="js/lightgallery/dist/css/lightgallery.min.css">
 	<link rel="stylesheet" type="text/css" href="js/kladr/jquery.kladr.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css?2409191705">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css?2709191842">
 	<script src="js/jquery/jquery-3.4.1.js"></script>
 	<script src="js/kladr/jquery.kladr.min.js"></script>	
 	<script src='js/owlcarousel/dist/owl.carousel.min.js'></script>
 	<script src='js/lightgallery/dist/js/lightgallery.min.js'></script>
 	<script src='js/lightgallery/modules/lg-video.min.js'></script>
-	<script src="js/my.js?2409191705"></script>		
+	<script src="js/my.min.js?2709191842"></script>		
 </body>
 </html>

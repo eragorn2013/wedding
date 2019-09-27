@@ -15,7 +15,7 @@ $('.portfolio-wrap').lightGallery();
 
 /*Открываем видео*/
 
-$(".useful-video-item").on('click', function(){
+/*$(".useful-video-item").on('click', function(){
     var idVideo=$(this).attr("data-id");
     var url="https://www.youtube.com/embed/"+idVideo;
     $(".modal-video-iframe").attr("src", url);
@@ -30,7 +30,7 @@ $(".modal-video-close, #modal-video").on("click", function(){
 
 $(".modal-video-content").on('click', function(e){
     e.stopPropagation();
-});
+});*/
 
 /*Автокомплит городов*/
 
@@ -40,7 +40,7 @@ $(".header-logo-link-city").kladr({
 
 /*Карусель с акциями*/
 
-var owl=$(".owl-carousel");
+/*var owl=$(".owl-carousel");
 owl.owlCarousel({                      
     margin:15,
     nav:false,
@@ -58,11 +58,11 @@ $(".discounts-container-arrow.next").on('click', function(){
 });
 $(".discounts-container-arrow.prev").on('click', function(){
 	owl.trigger('prev.owl.carousel');
-});
+});*/
 
 /*Карусель с фотографами*/
 
-var owl2=$(".owl-carousel-2");
+/*var owl2=$(".owl-carousel-2");
 owl2.owlCarousel({                      
     margin:15,
     nav:false,
@@ -121,11 +121,11 @@ $(window).on('resize', function(){
             }
         });  
     }
-});
+});*/
 
 /*Карусель с фотографами*/
 
-var owl3=$(".owl-carousel-3");
+/*var owl3=$(".owl-carousel-3");
 owl3.owlCarousel({                      
     margin:15,
     nav:false,
@@ -146,4 +146,4 @@ $(".top-platforms-container-arrow.next").on('click', function(){
 });
 $(".top-platforms-container-arrow.prev").on('click', function(){
     owl3.trigger('prev.owl.carousel');
-});
+});*/
