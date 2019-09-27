@@ -201,26 +201,62 @@
 										<a class="best-item-right-services-item" href="#">
 											<img class="best-item-right-services-item-img" src="img/services/1<?= $expansion ?>" alt="">
 											<span class="best-item-right-services-item-name">Фотосъемка</span>
+											<span class="best-item-right-services-item-hidden">
+												<span class="best-item-right-services-item-hidden-wrap">
+													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
+													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+												</span>
+											</span>
 										</a>
 										<a class="best-item-right-services-item" href="#">
 											<img class="best-item-right-services-item-img" src="img/services/2<?= $expansion ?>" alt="">
 											<span class="best-item-right-services-item-name">Видеосъемка</span>
+											<span class="best-item-right-services-item-hidden">
+												<span class="best-item-right-services-item-hidden-wrap">
+													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
+													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+												</span>
+											</span>
 										</a>
 										<a class="best-item-right-services-item" href="#">
 											<img class="best-item-right-services-item-img" src="img/services/3<?= $expansion ?>" alt="">
 											<span class="best-item-right-services-item-name">Фотосъемка свадьбы</span>
+											<span class="best-item-right-services-item-hidden">
+												<span class="best-item-right-services-item-hidden-wrap">
+													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
+													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+												</span>
+											</span>
 										</a>
 										<a class="best-item-right-services-item" href="#">
 											<img class="best-item-right-services-item-img" src="img/services/4<?= $expansion ?>" alt="">
 											<span class="best-item-right-services-item-name">Фотокнига</span>
+											<span class="best-item-right-services-item-hidden">
+												<span class="best-item-right-services-item-hidden-wrap">
+													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
+													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+												</span>
+											</span>
 										</a>
 										<a class="best-item-right-services-item" href="#">
 											<img class="best-item-right-services-item-img" src="img/services/1<?= $expansion ?>" alt="">
 											<span class="best-item-right-services-item-name">Фотосъемка</span>
+											<span class="best-item-right-services-item-hidden">
+												<span class="best-item-right-services-item-hidden-wrap">
+													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
+													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+												</span>
+											</span>
 										</a>
 										<a class="best-item-right-services-item" href="#">
 											<img class="best-item-right-services-item-img" src="img/services/2<?= $expansion ?>" alt="">
 											<span class="best-item-right-services-item-name">Видеосъемка</span>
+											<span class="best-item-right-services-item-hidden">
+												<span class="best-item-right-services-item-hidden-wrap">
+													<p class="best-item-right-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</p>
+													<span class="best-item-right-services-item-hidden-link" href="#">Подробнее</span>
+												</span>
+											</span>
 										</a>
 									</div>
 								</div>
@@ -313,7 +349,7 @@
 		.nav-list-item-link.submenu-icon:after, .header-logo-link-city-icon,		
 		.socials-link-icon, .m-menu, .best-item-left-contacts-phone:before,
 		.best-item-left-contacts-socials-link.inst:before, .best-item-left-contacts-socials-link.vk:before,
-		.best-item-favorite-icon{				
+		.best-item-favorite-icon, .best-item-right-portfolio-item:after{				
 			background-image: url(img/icons<?= $expansion ?>);
 		}
 		.offer-waves {
