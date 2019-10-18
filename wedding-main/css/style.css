@@ -202,10 +202,6 @@ header{
 	transition: all 0.2s ease;
 	opacity: 1;
 }
-.nav-list-item.active > .nav-list-item-link:before{
-	transition: all 0.2s ease;
-	opacity: 1;
-}
 .nav-list-item-link{
 	color: #5B5F5C;
 	font-size: 18px;
@@ -272,7 +268,9 @@ header{
 }
 .offer-video{
 	position: absolute;
-	width: 158%;
+	min-width: 100%;
+    min-height: 100%;
+    top: 0%;
 	z-index: 1;
 }
 #offer:before{
@@ -313,7 +311,7 @@ header{
 	z-index: 2;
 }
 .offer-container{
-	padding: 155px 0 267px;
+	padding: 82px 0 179px;
 	position: relative;
 	z-index: 3;
 }
@@ -1666,8 +1664,9 @@ footer{
 		padding: 8px 20px 8px 12px;
 		font-size: 15px;
 	}	
-	.offer-video{
-		width: 162%;
+	.offer-video{		
+		min-width: 100%;
+	    min-height: 100%;	    
 	}
 	#offer:before{
 	    width: 216px;
@@ -1684,7 +1683,7 @@ footer{
 		height: 380px;
 	}
 	.offer-container{
-		padding: 63px 0 190px;
+		padding: 63px 0 133px;
 	}
 	.offer-head{
 		line-height: 61px;
@@ -2459,10 +2458,7 @@ footer{
 		padding: 8px 20px 8px 12px;
 		font-size: 13px;
 	}	
-	.offer-video{
-		width: 220%;
-    	left: calc(50% - 1452px / 2);
-	}
+	
 	#offer:before{
 	    width: 216px;
 	    height: 297px;
@@ -2478,7 +2474,7 @@ footer{
 		height: 380px;
 	}
 	.offer-container{
-		padding: 63px 0 190px;
+		padding: 63px 0 123px;
 	}
 	.offer-head{
 		line-height: 47px;
@@ -3283,10 +3279,7 @@ footer{
 		padding: 8px 20px 8px 12px;
 		font-size: 13px;
 	}	
-	.offer-video{
-		width: 252%;
-    	left: calc(50% - 1237px / 2);
-	}
+
 	#offer:before{
 	    width: 216px;
 	    height: 297px;
@@ -4141,11 +4134,7 @@ footer{
 		padding: 8px 20px 8px 12px;
 		font-size: 13px;
 	}	
-	.offer-video{
-		display: none;
-		width: 252%;
-    	left: calc(50% - 1237px / 2);
-	}
+	
 	#offer:before{
 	    width: 100px;
     	height: 150px;
