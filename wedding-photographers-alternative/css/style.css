@@ -458,23 +458,14 @@ header{
     background-position: -67px -188px;
     background-repeat: no-repeat;
 }
-.best-content-alternative-item-price{
-
-}
 .best-content-alternative-item-price-span{
 	font-size: 18px;
 	font-family: "Forum";
-}
-.best-content-alternative-item-price-span.text{
-
 }
 .best-content-alternative-item-price-span.old{
 	text-decoration-line: line-through;
 	color: #ABC2B0;
 	margin: 0 10px;
-}
-.best-content-alternative-item-price-span.new{
-
 }
 
 .pagination{
@@ -889,6 +880,93 @@ footer{
 		margin-top: 60px;
 		margin-bottom: 30px;
 	}
+
+	.best-content-alternative-item{		
+		border-radius: 30px;
+		padding: 16px 16px 38px 16px;		
+		width: 47.7%;		
+		margin-bottom: 20px;
+		margin-right: 19px;
+	}
+	.best-content-alternative-item-avatar{		
+		margin-bottom: 20px;
+	}
+	.best-content-alternative-item-avatar-img{		
+		border-radius: 30px;
+	}
+	.best-content-alternative-item-avata-pro{		
+		padding: 7px 15px;
+		border-radius: 30px;		
+		top: 10px;
+	    left: 10px;
+	}
+	.best-content-alternative-item-avata-like{		
+		border-radius: 30px;
+		padding: 11px 11px;
+		top: 10px;
+		right: 10px;		
+	}
+	.best-content-alternative-item-avata-like-span{		
+		width: 18px;
+		height: 18px;		
+		background-size: 300px;		
+		background-position: -134px -240px;
+	}
+	.best-content-alternative-item-avata-like-span.active{
+		background-position: -156px -240px;
+	}
+	.best-content-alternative-item-name{
+		font-size: 35px;
+		line-height: 28px;			
+		margin-bottom: 12px;
+	}
+	.best-content-alternative-item-text{
+		font-size: 16px;
+		margin-bottom: 19px;
+	}
+	.best-content-alternative-item-phone{
+		font-size: 18px;		
+		margin-bottom: 13px;
+	}
+	.best-content-alternative-item-phone:before{		
+	    width: 17px;
+	    height: 17px;
+	    top: 1px;
+	    left: -19px;	    
+	    background-size: 272px;
+	    background-position: -80px -153px;
+	}
+	.best-content-alternative-item-socials{		
+	    margin-bottom: 20px;
+	}
+	.best-content-alternative-item-socials-icon{		
+	    width: 43px;
+	    height: 43px;	    
+	    border-radius: 50%;		    
+	    margin-right: 7px;
+	}	
+	.best-content-alternative-item-socials-icon.inst:before{		
+	    width: 17px;	    
+	    height: 17px;
+	    top: calc(50% - 17px / 2);
+	    left: calc(50% - 17px / 2);
+	    background-size: 326px;
+	    background-position: -42px -187px;	    
+	}
+	.best-content-alternative-item-socials-icon.vk:before{		
+	    width: 23px;
+	    height: 13px;
+	    top: calc(50% - 13px / 2);
+	    left: calc(50% - 23px / 2);
+	    background-size: 326px;
+	    background-position: -67px -188px;	    
+	}
+	.best-content-alternative-item-price-span{
+		font-size: 18px;		
+	}
+	.best-content-alternative-item-price-span.old{		
+		margin: 0 10px;
+	}
 		
 
 	.pagination-arrow{
@@ -1188,6 +1266,93 @@ footer{
 	.best-content-wrap{
 		margin-top: 60px;
 		margin-bottom: 30px;
+	}
+
+	.best-content-alternative-item{		
+		border-radius: 30px;
+		padding: 16px 16px 38px 16px;		
+		width: 46.7%;		
+		margin-bottom: 20px;
+		margin-right: 19px;
+	}
+	.best-content-alternative-item-avatar{		
+		margin-bottom: 20px;
+	}
+	.best-content-alternative-item-avatar-img{		
+		border-radius: 30px;
+	}
+	.best-content-alternative-item-avata-pro{		
+		padding: 7px 15px;
+		border-radius: 30px;		
+		top: 10px;
+	    left: 10px;
+	}
+	.best-content-alternative-item-avata-like{		
+		border-radius: 30px;
+		padding: 11px 11px;
+		top: 10px;
+		right: 10px;		
+	}
+	.best-content-alternative-item-avata-like-span{		
+		width: 18px;
+		height: 18px;		
+		background-size: 300px;		
+		background-position: -134px -240px;
+	}
+	.best-content-alternative-item-avata-like-span.active{
+		background-position: -156px -240px;
+	}
+	.best-content-alternative-item-name{
+		font-size: 27px;
+    	line-height: 25px;			
+		margin-bottom: 12px;
+	}
+	.best-content-alternative-item-text{
+		font-size: 13px;
+		margin-bottom: 19px;
+	}
+	.best-content-alternative-item-phone{
+		font-size: 18px;		
+		margin-bottom: 13px;
+	}
+	.best-content-alternative-item-phone:before{		
+	    width: 17px;
+	    height: 17px;
+	    top: 1px;
+	    left: -19px;	    
+	    background-size: 272px;
+	    background-position: -80px -153px;
+	}
+	.best-content-alternative-item-socials{		
+	    margin-bottom: 20px;
+	}
+	.best-content-alternative-item-socials-icon{		
+	    width: 43px;
+	    height: 43px;	    
+	    border-radius: 50%;		    
+	    margin-right: 7px;
+	}	
+	.best-content-alternative-item-socials-icon.inst:before{		
+	    width: 17px;	    
+	    height: 17px;
+	    top: calc(50% - 17px / 2);
+	    left: calc(50% - 17px / 2);
+	    background-size: 326px;
+	    background-position: -42px -187px;	    
+	}
+	.best-content-alternative-item-socials-icon.vk:before{		
+	    width: 23px;
+	    height: 13px;
+	    top: calc(50% - 13px / 2);
+	    left: calc(50% - 23px / 2);
+	    background-size: 326px;
+	    background-position: -67px -188px;	    
+	}
+	.best-content-alternative-item-price-span{
+		font-size: 18px;		
+	}
+	.best-content-alternative-item-price-span.old{		
+		margin: 0 10px;
 	}
 		
 
@@ -1512,6 +1677,93 @@ footer{
 	.best-content-wrap{
 		margin-top: 60px;
 		margin-bottom: 30px;
+	}
+
+	.best-content-alternative-item{		
+		border-radius: 30px;
+		padding: 16px 16px 38px 16px;		
+		width: 100%;		
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+	.best-content-alternative-item-avatar{		
+		margin-bottom: 20px;
+	}
+	.best-content-alternative-item-avatar-img{		
+		border-radius: 30px;
+	}
+	.best-content-alternative-item-avata-pro{		
+		padding: 7px 15px;
+		border-radius: 30px;		
+		top: 10px;
+	    left: 10px;
+	}
+	.best-content-alternative-item-avata-like{		
+		border-radius: 30px;
+		padding: 11px 11px;
+		top: 10px;
+		right: 10px;		
+	}
+	.best-content-alternative-item-avata-like-span{		
+		width: 18px;
+		height: 18px;		
+		background-size: 300px;		
+		background-position: -134px -240px;
+	}
+	.best-content-alternative-item-avata-like-span.active{
+		background-position: -156px -240px;
+	}
+	.best-content-alternative-item-name{
+		font-size: 27px;
+    	line-height: 25px;			
+		margin-bottom: 12px;
+	}
+	.best-content-alternative-item-text{
+		font-size: 13px;
+		margin-bottom: 19px;
+	}
+	.best-content-alternative-item-phone{
+		font-size: 18px;		
+		margin-bottom: 13px;
+	}
+	.best-content-alternative-item-phone:before{		
+	    width: 17px;
+	    height: 17px;
+	    top: 1px;
+	    left: -19px;	    
+	    background-size: 272px;
+	    background-position: -80px -153px;
+	}
+	.best-content-alternative-item-socials{		
+	    margin-bottom: 20px;
+	}
+	.best-content-alternative-item-socials-icon{		
+	    width: 43px;
+	    height: 43px;	    
+	    border-radius: 50%;		    
+	    margin-right: 7px;
+	}	
+	.best-content-alternative-item-socials-icon.inst:before{		
+	    width: 17px;	    
+	    height: 17px;
+	    top: calc(50% - 17px / 2);
+	    left: calc(50% - 17px / 2);
+	    background-size: 326px;
+	    background-position: -42px -187px;	    
+	}
+	.best-content-alternative-item-socials-icon.vk:before{		
+	    width: 23px;
+	    height: 13px;
+	    top: calc(50% - 13px / 2);
+	    left: calc(50% - 23px / 2);
+	    background-size: 326px;
+	    background-position: -67px -188px;	    
+	}
+	.best-content-alternative-item-price-span{
+		font-size: 18px;		
+	}
+	.best-content-alternative-item-price-span.old{		
+		margin: 0 10px;
 	}
 		
 
@@ -1881,6 +2133,93 @@ footer{
 		font-size: 18px;
 		line-height: 21px;		
 		margin: 0px 10px;
+	}
+
+	.best-content-alternative-item{		
+		border-radius: 30px;
+		padding: 16px 16px 38px 16px;		
+		width: 100%;		
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+	.best-content-alternative-item-avatar{		
+		margin-bottom: 20px;
+	}
+	.best-content-alternative-item-avatar-img{		
+		border-radius: 30px;
+	}
+	.best-content-alternative-item-avata-pro{		
+		padding: 7px 15px;
+		border-radius: 30px;		
+		top: 10px;
+	    left: 10px;
+	}
+	.best-content-alternative-item-avata-like{		
+		border-radius: 30px;
+		padding: 11px 11px;
+		top: 10px;
+		right: 10px;		
+	}
+	.best-content-alternative-item-avata-like-span{		
+		width: 18px;
+		height: 18px;		
+		background-size: 300px;		
+		background-position: -134px -240px;
+	}
+	.best-content-alternative-item-avata-like-span.active{
+		background-position: -156px -240px;
+	}
+	.best-content-alternative-item-name{
+		font-size: 27px;
+    	line-height: 25px;			
+		margin-bottom: 12px;
+	}
+	.best-content-alternative-item-text{
+		font-size: 13px;
+		margin-bottom: 19px;
+	}
+	.best-content-alternative-item-phone{
+		font-size: 18px;		
+		margin-bottom: 13px;
+	}
+	.best-content-alternative-item-phone:before{		
+	    width: 17px;
+	    height: 17px;
+	    top: 1px;
+	    left: -19px;	    
+	    background-size: 272px;
+	    background-position: -80px -153px;
+	}
+	.best-content-alternative-item-socials{		
+	    margin-bottom: 20px;
+	}
+	.best-content-alternative-item-socials-icon{		
+	    width: 43px;
+	    height: 43px;	    
+	    border-radius: 50%;		    
+	    margin-right: 7px;
+	}	
+	.best-content-alternative-item-socials-icon.inst:before{		
+	    width: 17px;	    
+	    height: 17px;
+	    top: calc(50% - 17px / 2);
+	    left: calc(50% - 17px / 2);
+	    background-size: 326px;
+	    background-position: -42px -187px;	    
+	}
+	.best-content-alternative-item-socials-icon.vk:before{		
+	    width: 23px;
+	    height: 13px;
+	    top: calc(50% - 13px / 2);
+	    left: calc(50% - 23px / 2);
+	    background-size: 326px;
+	    background-position: -67px -188px;	    
+	}
+	.best-content-alternative-item-price-span{
+		font-size: 15px;		
+	}
+	.best-content-alternative-item-price-span.old{		
+		margin: 0 10px;
 	}
 
 	#blocks{		

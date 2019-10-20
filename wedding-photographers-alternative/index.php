@@ -163,7 +163,7 @@
 					<div class="best-content-wrap">
 						<div class="best-content-alternative-item">
 							<div class="best-content-alternative-item-avatar">
-								<img class="best-content-alternative-item-avatar-img" src="img/photographers/1.webp" alt="">
+								<img class="best-content-alternative-item-avatar-img" src="img/photographers/2.webp" alt="">
 								<span class="best-content-alternative-item-avata-pro">pro</span>
 								<div class="best-content-alternative-item-avata-like">
 									<span class="best-content-alternative-item-avata-like-span">like</span>
@@ -181,7 +181,7 @@
 								<span class="best-content-alternative-item-price-span old">200 000р.</span>
 								<span class="best-content-alternative-item-price-span new">170 000р.</span>
 							</div>
-						</div>
+						</div>						
 
 						<div class="best-content-alternative-item">
 							<div class="best-content-alternative-item-avatar">
@@ -295,7 +295,7 @@
 
 						<div class="best-content-alternative-item">
 							<div class="best-content-alternative-item-avatar">
-								<img class="best-content-alternative-item-avatar-img" src="img/photographers/1.webp" alt="">
+								<img class="best-content-alternative-item-avatar-img" src="img/photographers/2.webp" alt="">
 								<span class="best-content-alternative-item-avata-pro">pro</span>
 								<div class="best-content-alternative-item-avata-like">
 									<span class="best-content-alternative-item-avata-like-span">like</span>
@@ -339,7 +339,29 @@
 
 						<div class="best-content-alternative-item">
 							<div class="best-content-alternative-item-avatar">
-								<img class="best-content-alternative-item-avatar-img" src="img/photographers/1.webp" alt="">
+								<img class="best-content-alternative-item-avatar-img" src="img/photographers/2.webp" alt="">
+								<span class="best-content-alternative-item-avata-pro">pro</span>
+								<div class="best-content-alternative-item-avata-like">
+									<span class="best-content-alternative-item-avata-like-span">like</span>
+								</div>
+							</div>
+							<h3 class="best-content-alternative-item-name">Назарова Лариса,</h3>
+							<p class="best-content-alternative-item-text">Фотограф в Петропаловск-Камчатском</p>
+							<div class="best-content-alternative-item-phone">+7 (000) 123 45 67</div>
+							<div class="best-content-alternative-item-socials">
+								<a class="best-content-alternative-item-socials-icon inst" href="#">Инстаграм</a>
+								<a class="best-content-alternative-item-socials-icon vk" href="#">Вконтакте</a>
+							</div>
+							<div class="best-content-alternative-item-price">
+								<span class="best-content-alternative-item-price-span text">Стоимость:</span>
+								<span class="best-content-alternative-item-price-span old">200 000р.</span>
+								<span class="best-content-alternative-item-price-span new">170 000р.</span>
+							</div>
+						</div>
+
+						<div class="best-content-alternative-item">
+							<div class="best-content-alternative-item-avatar">
+								<img class="best-content-alternative-item-avatar-img" src="img/photographers/2.webp" alt="">
 								<span class="best-content-alternative-item-avata-pro">pro</span>
 								<div class="best-content-alternative-item-avata-like">
 									<span class="best-content-alternative-item-avata-like-span">like</span>
@@ -383,95 +405,7 @@
 
 						<div class="best-content-alternative-item">
 							<div class="best-content-alternative-item-avatar">
-								<img class="best-content-alternative-item-avatar-img" src="img/photographers/1.webp" alt="">
-								<span class="best-content-alternative-item-avata-pro">pro</span>
-								<div class="best-content-alternative-item-avata-like">
-									<span class="best-content-alternative-item-avata-like-span">like</span>
-								</div>
-							</div>
-							<h3 class="best-content-alternative-item-name">Назарова Лариса,</h3>
-							<p class="best-content-alternative-item-text">Фотограф в Петропаловск-Камчатском</p>
-							<div class="best-content-alternative-item-phone">+7 (000) 123 45 67</div>
-							<div class="best-content-alternative-item-socials">
-								<a class="best-content-alternative-item-socials-icon inst" href="#">Инстаграм</a>
-								<a class="best-content-alternative-item-socials-icon vk" href="#">Вконтакте</a>
-							</div>
-							<div class="best-content-alternative-item-price">
-								<span class="best-content-alternative-item-price-span text">Стоимость:</span>
-								<span class="best-content-alternative-item-price-span old">200 000р.</span>
-								<span class="best-content-alternative-item-price-span new">170 000р.</span>
-							</div>
-						</div>
-
-						<div class="best-content-alternative-item">
-							<div class="best-content-alternative-item-avatar">
-								<img class="best-content-alternative-item-avatar-img" src="img/photographers/1.webp" alt="">
-								<span class="best-content-alternative-item-avata-pro">pro</span>
-								<div class="best-content-alternative-item-avata-like">
-									<span class="best-content-alternative-item-avata-like-span">like</span>
-								</div>
-							</div>
-							<h3 class="best-content-alternative-item-name">Назарова Лариса,</h3>
-							<p class="best-content-alternative-item-text">Фотограф в Петропаловск-Камчатском</p>
-							<div class="best-content-alternative-item-phone">+7 (000) 123 45 67</div>
-							<div class="best-content-alternative-item-socials">
-								<a class="best-content-alternative-item-socials-icon inst" href="#">Инстаграм</a>
-								<a class="best-content-alternative-item-socials-icon vk" href="#">Вконтакте</a>
-							</div>
-							<div class="best-content-alternative-item-price">
-								<span class="best-content-alternative-item-price-span text">Стоимость:</span>
-								<span class="best-content-alternative-item-price-span old">200 000р.</span>
-								<span class="best-content-alternative-item-price-span new">170 000р.</span>
-							</div>
-						</div>
-
-						<div class="best-content-alternative-item">
-							<div class="best-content-alternative-item-avatar">
-								<img class="best-content-alternative-item-avatar-img" src="img/photographers/1.webp" alt="">
-								<span class="best-content-alternative-item-avata-pro">pro</span>
-								<div class="best-content-alternative-item-avata-like">
-									<span class="best-content-alternative-item-avata-like-span">like</span>
-								</div>
-							</div>
-							<h3 class="best-content-alternative-item-name">Назарова Лариса,</h3>
-							<p class="best-content-alternative-item-text">Фотограф в Петропаловск-Камчатском</p>
-							<div class="best-content-alternative-item-phone">+7 (000) 123 45 67</div>
-							<div class="best-content-alternative-item-socials">
-								<a class="best-content-alternative-item-socials-icon inst" href="#">Инстаграм</a>
-								<a class="best-content-alternative-item-socials-icon vk" href="#">Вконтакте</a>
-							</div>
-							<div class="best-content-alternative-item-price">
-								<span class="best-content-alternative-item-price-span text">Стоимость:</span>
-								<span class="best-content-alternative-item-price-span old">200 000р.</span>
-								<span class="best-content-alternative-item-price-span new">170 000р.</span>
-							</div>
-						</div>
-
-						<div class="best-content-alternative-item">
-							<div class="best-content-alternative-item-avatar">
-								<img class="best-content-alternative-item-avatar-img" src="img/photographers/1.webp" alt="">
-								<span class="best-content-alternative-item-avata-pro">pro</span>
-								<div class="best-content-alternative-item-avata-like">
-									<span class="best-content-alternative-item-avata-like-span">like</span>
-								</div>
-							</div>
-							<h3 class="best-content-alternative-item-name">Назарова Лариса,</h3>
-							<p class="best-content-alternative-item-text">Фотограф в Петропаловск-Камчатском</p>
-							<div class="best-content-alternative-item-phone">+7 (000) 123 45 67</div>
-							<div class="best-content-alternative-item-socials">
-								<a class="best-content-alternative-item-socials-icon inst" href="#">Инстаграм</a>
-								<a class="best-content-alternative-item-socials-icon vk" href="#">Вконтакте</a>
-							</div>
-							<div class="best-content-alternative-item-price">
-								<span class="best-content-alternative-item-price-span text">Стоимость:</span>
-								<span class="best-content-alternative-item-price-span old">200 000р.</span>
-								<span class="best-content-alternative-item-price-span new">170 000р.</span>
-							</div>
-						</div>
-
-						<div class="best-content-alternative-item">
-							<div class="best-content-alternative-item-avatar">
-								<img class="best-content-alternative-item-avatar-img" src="img/photographers/1.webp" alt="">
+								<img class="best-content-alternative-item-avatar-img" src="img/photographers/2.webp" alt="">
 								<span class="best-content-alternative-item-avata-pro">pro</span>
 								<div class="best-content-alternative-item-avata-like">
 									<span class="best-content-alternative-item-avata-like-span">like</span>
