@@ -1,3 +1,11 @@
+/*Добавить в избранное*/
+
+$(".best-content-alternative-item-avata-like").on('click', function(){
+    if(!($(".best-content-alternative-item-avata-like-span", this).hasClass("active"))) $(".best-content-alternative-item-avata-like-span", this).addClass('active');
+    else $(".best-content-alternative-item-avata-like-span", this).removeClass('active');
+    return false;
+});
+
 /* Работа с мобильным меню */
 
 $(".m-menu").on('click', function(){
