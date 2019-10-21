@@ -151,7 +151,7 @@
 
 		<section id="card-all">
 			<div class="container">
-				<div class="content">
+				<div class="content card-all-content">
 					<div class="card-all-left">
 						<div class="card-all-left-desc">
 							<p class="card-all-left-desc-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>
@@ -298,7 +298,45 @@
 						</div>
 					</div>						
 					<div class="card-all-right">
+						<div class="card-all-right-item">
+							<div class="card-all-right-item-avatar">
+								<img class="card-all-right-item-avatar-img" src="img/photographers/2.webp" alt="">
+								<span class="card-all-right-item-avatar-pro">pro</span>								
+							</div>
+							<h3 class="card-all-right-item-name">Николай Чернышов</h3>
+							<a class="card-all-right-item-favorite" href="#"><i class="card-all-right-item-favorite-icon"></i>В избранное</a>
+							<div class="card-all-right-item-phone">+7 (000) 123 45 67</div>
+							<div class="card-all-right-item-socials">
+								<a class="card-all-right-item-socials-icon inst" href="#">Инстаграм</a>
+								<a class="card-all-right-item-socials-icon vk" href="#">Вконтакте</a>
+							</div>
+							<div class="card-all-right-item-write">
+								<a class="card-all-right-item-write-link" href="#">
+									<i class="card-all-right-item-write-link-icon wb"></i>
+									<span class="card-all-right-item-write-link-span">Написать в Вайбер</span>
+								</a>
+								<a class="card-all-right-item-write-link" href="#">
+									<i class="card-all-right-item-write-link-icon wp"></i>
+									<span class="card-all-right-item-write-link-span">Написать в Ватсап</span>
+								</a>
+							</div>	
+							<div class="card-all-right-item-submit">
+								<p class="card-all-right-item-submit-text">Свободен на 23 февраля 2020</p>
+								<a class="card-all-right-item-submit-link" href="#">Проверить свою дату</a>
+							</div>						
+						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="socials">
+			<div class="container socials-container">
+				<div class="content socials-content">
+					<a class="socials-link" href="#"><span class="socials-link-icon fb"></span></a>
+					<a class="socials-link" href="#"><span class="socials-link-icon ig"></span></a>
+					<a class="socials-link" href="#"><span class="socials-link-icon p"></span></a>
+					<a class="socials-link" href="#"><span class="socials-link-icon vk"></span></a>
 				</div>
 			</div>
 		</section>

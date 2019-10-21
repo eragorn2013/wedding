@@ -1,8 +1,8 @@
 /*Добавить в избранное*/
 
-$(".best-content-alternative-item-avata-like").on('click', function(){
-    if(!($(".best-content-alternative-item-avata-like-span", this).hasClass("active"))) $(".best-content-alternative-item-avata-like-span", this).addClass('active');
-    else $(".best-content-alternative-item-avata-like-span", this).removeClass('active');
+$(".card-all-right-item-favorite").on('click', function(){
+    if(!($(".card-all-right-item-favorite-icon", this).hasClass("active"))) $(".card-all-right-item-favorite-icon", this).addClass('active');
+    else $(".card-all-right-item-favorite-icon", this).removeClass('active');
     return false;
 });
 
