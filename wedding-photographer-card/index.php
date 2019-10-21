@@ -22,7 +22,7 @@
 		.socials-link-icon, .m-menu, .best-item-left-contacts-phone:before,
 		.best-item-left-contacts-socials-link.inst:before, .best-item-left-contacts-socials-link.vk:before,
 		.best-item-right-contacts-socials-link.inst:before, .best-item-right-contacts-socials-link.vk:before,
-		.best-item-favorite-icon, .best-item-right-portfolio-item:after, .best-item-right-contacts-phone:before{				
+		.best-item-favorite-icon, .card-all-left-images-item:after, .best-item-right-contacts-phone:before{				
 			background-image: url(img/icons<?= $expansion ?>);
 		}
 		.offer-waves {
@@ -153,8 +153,150 @@
 			<div class="container">
 				<div class="content">
 					<div class="card-all-left">
-						
-					</div>
+						<div class="card-all-left-desc">
+							<p class="card-all-left-desc-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>
+						</div>
+						<div class="card-all-left-images">
+							<h3 class="card-all-left-images-head head-left">Фото в портфолио</h3>
+							<div class="card-all-left-images-wrap portfolio-wrap">
+								<a class="card-all-left-images-item" href="img/portfolio/1<?= $expansion ?>">
+									<img class="card-all-left-images-item-img" src="img/portfolio/1<?= $expansion ?>" alt="">
+								</a>
+								<a class="card-all-left-images-item" href="img/portfolio/2<?= $expansion ?>">
+									<img class="card-all-left-images-item-im" src="img/portfolio/2<?= $expansion ?>" alt="">
+								</a>
+								<a class="card-all-left-images-item" href="img/portfolio/3<?= $expansion ?>">
+									<img class="card-all-left-images-item-im" src="img/portfolio/3<?= $expansion ?>" alt="">
+								</a>
+								<a class="card-all-left-images-item" href="img/portfolio/4<?= $expansion ?>">
+									<img class="card-all-left-images-item-img" src="img/portfolio/4<?= $expansion ?>" alt="">
+								</a>
+								<a class="card-all-left-images-item" href="img/portfolio/5<?= $expansion ?>">
+									<img class="card-all-left-images-item-im" src="img/portfolio/5<?= $expansion ?>" alt="">
+								</a>
+								<a class="card-all-left-images-item" href="img/portfolio/6<?= $expansion ?>">
+									<img class="card-all-left-images-item-img" src="img/portfolio/6<?= $expansion ?>" alt="">
+								</a>
+							</div>
+							<a class="card-all-left-images-more" href="#">Показать все</a>
+						</div>
+						<div class="card-all-left-services">
+							<h3 class="card-all-left-services-head head-left">Услуги:</h3>
+							<div class="card-all-left-services-wrap">
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/1<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/2<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/3<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/4<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/1<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/2<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>										
+							</div>
+						</div>
+						<div class="card-all-left-comments">
+							<h3 class="card-all-left-comments-head head-left">Отзывы</h3>
+							<div class="card-all-left-comments-wrap">
+								<div class="card-all-left-comments-item">
+									<p class="card-all-left-comments-item-p">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugia.</p>
+									<div class="card-all-left-comments-item-persona">
+										<div class="card-all-left-comments-item-persona-avatar">
+											<img class="card-all-left-comments-item-persona-avatar-img" src="img/comments/1.webp" alt="">
+										</div>
+										<span class='card-all-left-comments-item-persona-name'>Антон и Таня Моргуно</span>
+									</div>
+								</div>
+								<div class="card-all-left-comments-item">
+									<p class="card-all-left-comments-item-p">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugia.</p>
+									<div class="card-all-left-comments-item-persona">
+										<div class="card-all-left-comments-item-persona-avatar">
+											<img class="card-all-left-comments-item-persona-avatar-img" src="img/comments/1.webp" alt="">
+										</div>
+										<span class='card-all-left-comments-item-persona-name'>Антон и Таня Моргуно</span>
+									</div>
+								</div>
+								<div class="card-all-left-comments-item">
+									<p class="card-all-left-comments-item-p">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugia.</p>
+									<div class="card-all-left-comments-item-persona">
+										<div class="card-all-left-comments-item-persona-avatar">
+											<img class="card-all-left-comments-item-persona-avatar-img" src="img/comments/1.webp" alt="">
+										</div>
+										<span class='card-all-left-comments-item-persona-name'>Антон и Таня Моргуно</span>
+									</div>
+								</div>
+							</div>
+							<a class="card-all-left-comments-more" href="#">Показать все отзывы</a>
+						</div>
+						<div class="card-all-left-questions">
+							<h3 class="card-all-left-questions-head head-left">Вопросы и ответы</h3>
+							<div class="card-all-left-questions-wrap">
+								<div class="card-all-left-questions-item">
+									<div class="card-all-left-questions-item-text question">Ut wisi enim ad minim veniam, quis</div>
+									<div class="card-all-left-questions-item-text answer">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse, vel illum dolore.</div>
+								</div>
+								<div class="card-all-left-questions-item">
+									<div class="card-all-left-questions-item-text question">Ut wisi enim ad minim veniam, quis</div>
+									<div class="card-all-left-questions-item-text answer">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse, vel illum dolore.</div>
+								</div>
+								<div class="card-all-left-questions-item">
+									<div class="card-all-left-questions-item-text question">Ut wisi enim ad minim veniam, quis</div>
+									<div class="card-all-left-questions-item-text answer">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse, vel illum dolore.</div>
+								</div>
+							</div>	
+							<a class="card-all-left-questions-more" href="#">Показать все ответы</a>						
+						</div>
+					</div>						
 					<div class="card-all-right">
 					</div>
 				</div>
