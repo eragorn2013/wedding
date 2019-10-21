@@ -163,16 +163,16 @@
 									<img class="card-all-left-images-item-img" src="img/portfolio/1<?= $expansion ?>" alt="">
 								</a>
 								<a class="card-all-left-images-item" href="img/portfolio/2<?= $expansion ?>">
-									<img class="card-all-left-images-item-im" src="img/portfolio/2<?= $expansion ?>" alt="">
+									<img class="card-all-left-images-item-img" src="img/portfolio/2<?= $expansion ?>" alt="">
 								</a>
 								<a class="card-all-left-images-item" href="img/portfolio/3<?= $expansion ?>">
-									<img class="card-all-left-images-item-im" src="img/portfolio/3<?= $expansion ?>" alt="">
+									<img class="card-all-left-images-item-img" src="img/portfolio/3<?= $expansion ?>" alt="">
 								</a>
 								<a class="card-all-left-images-item" href="img/portfolio/4<?= $expansion ?>">
 									<img class="card-all-left-images-item-img" src="img/portfolio/4<?= $expansion ?>" alt="">
 								</a>
 								<a class="card-all-left-images-item" href="img/portfolio/5<?= $expansion ?>">
-									<img class="card-all-left-images-item-im" src="img/portfolio/5<?= $expansion ?>" alt="">
+									<img class="card-all-left-images-item-img" src="img/portfolio/5<?= $expansion ?>" alt="">
 								</a>
 								<a class="card-all-left-images-item" href="img/portfolio/6<?= $expansion ?>">
 									<img class="card-all-left-images-item-img" src="img/portfolio/6<?= $expansion ?>" alt="">
