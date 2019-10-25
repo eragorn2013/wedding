@@ -1,3 +1,28 @@
+/*Прилипающий фильтр*/
+
+var filter=$(".best-form-search").clone();
+filter.removeClass('best-form-search');
+filter.addClass('best-form-search-fixed');
+function filterFixed(){
+    if($(window).width() > 920){
+        var heightTopFilter=$('.best-form-search').offset().top;
+        var heightScroll=$(window).scrollTop();
+        if(heightScroll >= (heightTopFilter+54)){
+            $('body').prepend(filter);
+            if($(".best-form-search-fixed").is(":hidden"))
+                $(".best-form-search-fixed").slideDown(100).css("display", "flex");        
+        }
+        else if(heightScroll < (heightTopFilter+54)){   
+            if($(".best-form-search-fixed").is(":visible"))
+                $(".best-form-search-fixed").slideUp(100);
+        }
+    }
+    else $(".best-form-search-fixed").slideUp(100);
+}
+filterFixed();
+$(document).on('scroll', function(){filterFixed();});
+$(window).on('resize', function(){filterFixed();});
+
 /*Добавить в избранное*/
 
 $(".best-content-alternative-item-avata-like").on('click', function(){
