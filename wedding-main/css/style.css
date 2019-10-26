@@ -5,7 +5,7 @@
 	font-family: "roboto-regular";
 	font-size: 14px;
 	list-style-type: none;
-	text-decoration: none;
+	textьувшф-decoration: none;
 	outline: none;
 	font-style: normal;
 	font-weight: normal;
@@ -3363,6 +3363,9 @@ footer{
 		border-radius: 30px;
 		margin-top: 10px;
 	}
+	.offer-video{
+		display: none;
+	}
 	#discounts{
 		padding: 13px 0;
 	}
@@ -4222,6 +4225,9 @@ footer{
 	    width: 100%;
 	    box-sizing: border-box;
 	    text-align: center;		
+	}
+	.offer-video{
+		display: none;
 	}
 	.header-content{
 		flex-wrap: wrap;
