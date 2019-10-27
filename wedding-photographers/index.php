@@ -846,7 +846,7 @@
     <link rel="stylesheet" type="text/css" href="js/owlcarousel/dist/assets/owl.theme.green.css">
     <link rel="stylesheet" type="text/css" href="js/lightgallery/dist/css/lightgallery.min.css">
 	<link rel="stylesheet" type="text/css" href="js/kladr/jquery.kladr.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.min.css?2709191842">
+	<link rel="stylesheet" type="text/css" href="css/style.css?2709191842">
 	<script src="js/jquery/jquery-3.4.1.js"></script>
 	<script src="js/kladr/jquery.kladr.min.js"></script>	
 	<script src='js/owlcarousel/dist/owl.carousel.min.js'></script>

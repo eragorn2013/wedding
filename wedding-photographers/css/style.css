@@ -267,9 +267,16 @@ header{
     border-radius: 30px;
     color: #b0b0b0;
     line-height: 24px;
-    padding: 9px 76px 9px 10px;
+    padding: 9px 76px 9px 20px;
     cursor: pointer;
     margin-bottom: 18px;
+    -moz-appearance: none;
+	-webkit-appearance: none;	
+	outline: none;
+	background-image: url("../img/arrow-down.png");
+	background-repeat: no-repeat;
+	background-size: 9px;
+	background-position: 94% center;
 }
 .offer-waves{
 	position: absolute;
@@ -304,6 +311,15 @@ header{
     padding: 14px 16px;
     cursor: pointer;  
     width: 21.9%;  
+}
+.best-form-search-select{
+	-moz-appearance: none;
+	-webkit-appearance: none;	
+	outline: none;
+	background-image: url("../img/arrow-down.png");
+	background-repeat: no-repeat;
+	background-size: 9px;
+	background-position: 94% center;
 }
 .best-form-search-input{
 
@@ -490,12 +506,19 @@ header{
     border-radius: 30px;
     color: #b0b0b0;
     line-height: 24px;
-    padding: 14px 10px;
+    padding: 14px 20px;
     cursor: pointer;
     margin-bottom: 18px;
     background: none;
     width: 100%;
     box-sizing: border-box;
+    -moz-appearance: none;
+	-webkit-appearance: none;	
+	outline: none;
+	background-image: url("../img/arrow-down.png");
+	background-repeat: no-repeat;
+	background-size: 9px;
+	background-position: 94% center;
 }
 .best-item-left-list-li{
 	text-align: center;
@@ -1107,7 +1130,7 @@ footer{
 	.offer-select{		   
 	    border-radius: 30px;	   
 	    line-height: 24px;
-	    padding: 9px 76px 9px 10px;	    
+	    padding: 9px 76px 9px 20px;	    
 	    margin-bottom: 18px;
 	}
 	.offer-waves{		    
@@ -1238,7 +1261,7 @@ footer{
 	.best-item-left-date-select{		
 	    border-radius: 30px;	   
 	    line-height: 24px;
-	    padding: 14px 10px;	  
+	    padding: 14px 20px;	  
 	    margin-bottom: 18px;	   
 	    width: 100%;	   
 	}
@@ -1613,7 +1636,7 @@ footer{
 	.offer-select{		   
 	    border-radius: 30px;	   
 	    line-height: 24px;
-	    padding: 9px 76px 9px 10px;	    
+	    padding: 9px 76px 9px 20px;	    
 	    margin-bottom: 18px;
 	}
 	.offer-waves{		    
@@ -1747,7 +1770,7 @@ footer{
 	.best-item-left-date-select{		
 	    border-radius: 30px;	   
 	    line-height: 24px;
-	    padding: 14px 10px;	  
+	    padding: 14px 20px;	  
 	    margin-bottom: 18px;	   
 	    width: 100%;	   
 	}
@@ -2152,7 +2175,7 @@ footer{
 	.offer-select{		   
 	    border-radius: 30px;	   
 	    line-height: 24px;
-	    padding: 9px 76px 9px 10px;	    
+	    padding: 9px 76px 9px 20px;	    
 	    margin-bottom: 18px;
 	}
 	.offer-waves{		    
@@ -2287,7 +2310,7 @@ footer{
 	.best-item-left-date-select{		
 	    border-radius: 30px;	   
 	    line-height: 24px;
-	    padding: 14px 10px;	  
+	    padding: 14px 20px;	  
 	    margin-bottom: 18px;	   
 	    width: 100%;	   
 	}
@@ -2707,7 +2730,7 @@ footer{
 	.offer-select{		   
 	    border-radius: 30px;	   
 	    line-height: 24px;
-	    padding: 9px 76px 9px 10px;	    
+	    padding: 9px 76px 9px 20px;	    
 	    margin-bottom: 18px;
 	}
 	.offer-waves{		    
@@ -2845,7 +2868,7 @@ footer{
 	.best-item-left-date-select{		
 	    border-radius: 30px;	   
 	    line-height: 24px;
-	    padding: 14px 10px;	  
+	    padding: 14px 20px;	  
 	    margin-bottom: 18px;	   
 	    width: 100%;	   
 	}
