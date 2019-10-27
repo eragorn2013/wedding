@@ -735,9 +735,17 @@ header{
 	border-radius: 30px;
 	color: #B0B0B0;
 	line-height: 24px;
-	padding: 9px 76px 9px 10px;
+	padding: 9px 20px 9px 20px;
+    width: 17.4%;
 	cursor: pointer;
 	margin-bottom: 18px;
+	-moz-appearance: none;
+	-webkit-appearance: none;	
+	outline: none;
+	background-image: url("../img/arrow-down.png");
+	background-repeat: no-repeat;
+	background-size: 9px;
+	background-position: 90% center;
 }
 .top-content,
 .top-platforms-content{
@@ -1920,7 +1928,8 @@ footer{
 	.top-platforms-select{
 		border-radius: 30px;
 		line-height: 24px;
-		padding: 9px 76px 9px 10px;
+		padding: 9px 20px 9px 20px;
+   		width: 27.4%;
 		margin-bottom: 18px;
 	}
 	.top-item{
@@ -2711,8 +2720,10 @@ footer{
 	.top-platforms-select{
 		border-radius: 30px;
 		line-height: 24px;
-		padding: 9px 76px 9px 10px;
+		padding: 9px 20px 9px 20px;
+   		width: 100%;
 		margin-bottom: 18px;
+		background-position: 97% center;
 	}
 	.top-item{
 		width: 186px;
@@ -3557,8 +3568,10 @@ footer{
 	.top-platforms-select{
 		border-radius: 30px;
 		line-height: 24px;
-		padding: 9px 76px 9px 10px;
+		padding: 9px 20px 9px 20px;
+   		width: 100%;
 		margin-bottom: 18px;
+		background-position: 97% center;
 	}
 	.top-item{
 		width: 100%;
@@ -4423,8 +4436,10 @@ footer{
 	.top-platforms-select{
 		border-radius: 30px;
 		line-height: 24px;
-		padding: 9px 76px 9px 10px;
+		padding: 9px 20px 9px 20px;
+   		width: 100%;
 		margin-bottom: 18px;
+		background-position: 97% center;
 	}
 	.top-item{
 		width: 100%;
