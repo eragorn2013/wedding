@@ -319,6 +319,15 @@ header{
     cursor: pointer;  
     width: 21.9%;  
 }
+.best-form-search-select{
+	-moz-appearance: none;
+	-webkit-appearance: none;	
+	outline: none;
+	background-image: url("../img/arrow-down.png");
+	background-repeat: no-repeat;
+	background-size: 9px;
+	background-position: 94% center;
+}
 .best-form-search-input{
 
 }
