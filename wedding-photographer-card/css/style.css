@@ -610,7 +610,8 @@ header{
 }
 
 .card-all-right{
-	width: 23%;
+	width: 269px;
+	position: relative;
 }
 .card-all-right-item{
 	background: #FAF6F4;
@@ -619,7 +620,16 @@ header{
 	box-sizing: border-box;	
 	text-align: center;
 	margin-bottom: 20px;
-	margin-right: 19px;
+	width: 269px;
+	/*margin-right: 19px;*/
+}
+.card-all-right-item.fixed{
+	position: fixed;
+	top: 0;
+}
+.card-all-right-item.absolute{
+	position: absolute;
+	bottom: 0;
 }
 .card-all-right-item-avatar{
 	position: relative;
@@ -1197,13 +1207,14 @@ footer{
 	}
 
 	.card-all-right{
-		width: 33%;
+		width: 306px;
 	}
 	.card-all-right-item{
 		border-radius: 30px;
 		padding: 20px;		
 		margin-bottom: 20px;
-		margin-right: 19px;
+		margin-right: 0px;
+		width: 306px;
 	}
 	.card-all-right-item-avatar{		
 		margin-bottom: 20px;
@@ -1651,13 +1662,14 @@ footer{
 	}
 
 	.card-all-right{
-		width: 40%;
+		width: 256px;
 	}
 	.card-all-right-item{
+		width: 256px;
 		border-radius: 30px;
 		padding: 20px;		
 		margin-bottom: 20px;
-		margin-right: 19px;
+		margin-right: 0px;
 	}
 	.card-all-right-item-avatar{		
 		margin-bottom: 20px;
@@ -2133,6 +2145,7 @@ footer{
 		width: 100%;
 	}
 	.card-all-right-item{
+		width: 100%;
 		border-radius: 30px;
 		padding: 20px;		
 		margin-bottom: 20px;

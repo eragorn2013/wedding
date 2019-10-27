@@ -1,3 +1,31 @@
+/*Прилипания карточки фотографа при скролле*/
+
+$(window).on('scroll', function(){
+    if($(this).width() > 660){
+        var scrollTop=$(this).scrollTop();    
+        var elTop=$("#card-all").offset().top;   
+        var fixed=false; 
+        if(scrollTop >= elTop){
+            $(".card-all-right-item").addClass("fixed");
+            $(".card-all-right-item").removeClass("absolute");
+            fixed=true;
+        }
+        else{
+            $(".card-all-right-item").removeClass("fixed");
+            $(".card-all-right-item").removeClass("absolute");
+            fixed=false;
+        }
+        if(fixed){        
+            var elHeight=$('.card-all-right').height();
+            var scrollAndEl=(Number(scrollTop)+Number($(".card-all-right-item").innerHeight()))-Number(elTop);
+            if(scrollAndEl >= elHeight){            
+               $(".card-all-right-item").removeClass("fixed");           
+               $(".card-all-right-item").addClass("absolute");          
+            }          
+        }
+    }    
+});
+
 /*Добавить в избранное*/
 
 $(".card-all-right-item-favorite").on('click', function(){
