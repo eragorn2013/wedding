@@ -1,3 +1,26 @@
+/*Модальное окно "Этот раздел в разработке"*/
+
+$(".not-working").on('click', function(){
+   if($("#modal-not-working").is(":hidden"))
+        $("#modal-not-working").fadeIn(200);   
+   return false;
+});
+$("#modal-not-working, .not-working-close").on('click', function(){
+    if($(this).is(":visible"))
+        $("#modal-not-working").fadeOut(200);    
+});
+$(".not-working-content").on('click', function(e){e.stopPropagation()});
+
+$(".not-working-form").on('submit', function(){
+    var phone=$(".not-working-form-input", this).val();
+    if(phone == ""){
+        $(".not-working-form-input", this).css("border", "1px solid #b32c32");
+        return false;
+    }    
+});
+/*Маска для ввода номера телефона*/
+
+$(".not-working-form-input").mask("+7(999)999-99-99");
 /*Прилипания карточки фотографа при скролле*/
 
 $(window).on('scroll', function(){

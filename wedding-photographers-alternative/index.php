@@ -70,7 +70,7 @@
 						<input class="header-search-input" type="text" name="search" placeholder="Поиск">
 					</div>
 					<div class="header-auth">
-						<a class="header-auth-link input" href="#">Войти</a>
+						<a class="header-auth-link input not-working" href="#">Войти</a>
 						<a class="header-auth-link reg" href="#">Регистрация</a>
 					</div>					
 				</div>
@@ -524,7 +524,19 @@
 					</div>
 				</div>
 			</div>
-		</footer>				
+		</footer>	
+		<section id="modal-not-working">
+			<div class="container not-working-container">
+				<div class="content not-working-content">
+					<i class="not-working-close"></i>
+					<p class="not-working-info">Раздел находится в разработке. Оставьте свой номер телефона и мы свяжемся с вами</p>
+					<form class="not-working-form" action="#" method="post">
+						<input class="not-working-form-input" type="text" name="phone" placeholder="Номер телефона">
+						<button class="not-working-form-submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</section>			
 	</div>	
 	<link rel="stylesheet" type="text/css" href="js/owlcarousel/dist/assets/owl.carousel.css?2209191335">  
     <link rel="stylesheet" type="text/css" href="js/owlcarousel/dist/assets/owl.theme.green.css">
@@ -536,6 +548,7 @@
 	<script src='js/owlcarousel/dist/owl.carousel.min.js'></script>
 	<script src='js/lightgallery/dist/js/lightgallery.min.js'></script>
 	<script src='js/lightgallery/modules/lg-video.min.js'></script>
+	<script src="js/maskedinput/maskedinput.min.js"></script>
 	<script src="js/my.js?2709191842"></script>		
 </body>
 </html>
