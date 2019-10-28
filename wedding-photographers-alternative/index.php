@@ -66,6 +66,9 @@
 							<i class="header-logo-link-city-icon"></i>
 						</div>
 					</div>
+					<div class="header-search">
+						<input class="header-search-input" type="text" name="search" placeholder="Поиск">
+					</div>
 					<div class="header-auth">
 						<a class="header-auth-link input" href="#">Войти</a>
 						<a class="header-auth-link reg" href="#">Регистрация</a>

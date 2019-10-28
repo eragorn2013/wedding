@@ -81,7 +81,7 @@ header{
 .header-content{
 	display: flex;
 	justify-content: space-between;
-	align-self: center;
+	align-items: center;
 }
 .header-logo{
 	width: 20.8%;
@@ -118,6 +118,25 @@ header{
     background-size: 349px;
     background-repeat: no-repeat;
     background-position: -27px -5px;
+}
+.header-search{
+	align-self: center;
+	width: 30%;
+}
+.header-search-input{
+	border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #B0B0B0;
+    line-height: 24px;
+    padding: 9px 44px 9px 25px;
+    width: 100%;
+    cursor: pointer; 
+    background-image: url("../img/search.webp"); 
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 95% center;   
+    font-style: italic;   
 }
 .header-auth{
 	display: flex;
@@ -987,6 +1006,16 @@ footer{
 	    top: 5px;
 	    background-size: 349px;
 	    background-position: -27px -5px;
+	}
+	.header-search{		
+		width: 35%;
+	}
+	.header-search-input{		    
+	    border-radius: 30px;	    
+	    line-height: 24px;
+	    padding: 9px 44px 9px 25px;	    	   
+	    background-size: 20px;
+	    background-position: 95% center;  	    
 	}	
 	.header-auth-link{
 		border-radius: 30px;
@@ -995,7 +1024,7 @@ footer{
 	}
 	.header-auth-link.input{
 		margin-right: 10px;
-	}	
+	}
 	.nav-list-item{
 		padding: 21px 0;
 	}
@@ -1418,7 +1447,7 @@ footer{
 		width: 640px;
 	}
 	header{
-		padding: 19px 0;
+		padding: 10px 0;
 	}	
 	.header-logo{
 		width: 36.8%;
@@ -1434,12 +1463,27 @@ footer{
 		margin-top: 4px;
 		letter-spacing: 1px;
 	}
+	.header-content{
+		flex-wrap: wrap;
+	}
 	.header-logo-link-city-icon{
 		width: 14px;
 	    height: 7px;
 	    top: 5px;
 	    background-size: 349px;
 	    background-position: -27px -5px;
+	}
+	.header-search{		
+		width: 100%;
+		order: 3;
+		margin-top: 10px;
+	}
+	.header-search-input{		    
+	    border-radius: 30px;	    
+	    line-height: 24px;
+	    padding: 2px 44px 2px 25px;	    	   
+	    background-size: 20px;
+	    background-position: 95% center;  	    
 	}	
 	.header-auth-link{
 		border-radius: 30px;
@@ -1874,17 +1918,24 @@ footer{
 		width: 490px;
 	}
 	header{
-		padding: 19px 0;
+		padding: 10px 0;
 	}	
 	.header-logo{
-		width: 40.8%;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.header-auth{
+		width: 100%;
+    	justify-content: center;
 	}
 	.header-logo-link-text{
 		margin-bottom: 4px;
 		letter-spacing: 1px;
 	}
 	.header-logo-link-img{
-		width: 100%;
+		width: 56%;
+    	margin: 0 auto;
+    	display: block;
 	}	
 	.header-logo-link-city{
 		margin-top: 4px;
@@ -1896,7 +1947,25 @@ footer{
 	    top: 5px;
 	    background-size: 349px;
 	    background-position: -27px -5px;
+	}
+	.header-content{
+		flex-wrap: wrap;
+	}
+	.header-logo-link-city-icon{
+		width: 14px;
+	    height: 7px;
+	    top: 5px;
+	    background-size: 349px;
+	    background-position: -27px -5px;
+	}
+	.header-search{		
+		width: 100%;
+		order: 3;
+		margin-top: 10px;
 	}	
+	.header-search-input{
+		padding: 3px 44px 3px 20px;
+	}
 	.header-auth-link{
 		border-radius: 30px;
     	padding: 8px 28px;
@@ -2357,7 +2426,7 @@ footer{
 		width: 98%;
 	}
 	header{
-		padding: 19px 0;
+		padding: 10px 0;
 	}	
 	.header-logo{
 		width: 100%;
@@ -2386,14 +2455,29 @@ footer{
 	    top: 5px;
 	    background-size: 349px;
 	    background-position: -27px -5px;
+	}
+	.header-content{
+		flex-wrap: wrap;
+	}
+	.header-logo-link-city-icon{
+		width: 14px;
+	    height: 7px;
+	    top: 5px;
+	    background-size: 349px;
+	    background-position: -27px -5px;
+	}
+	.header-search{		
+		width: 100%;
+		order: 3;
+		margin-top: 10px;
 	}	
+	.header-search-input{
+		padding: 3px 44px 3px 20px;
+	}
 	.header-auth-link{
 		border-radius: 30px;
     	padding: 8px 28px;
     	font-size: 14px;
-	}
-	.header-content{
-		flex-wrap: wrap;
 	}
 	.header-auth-link.input{
 		margin-right: 10px;
