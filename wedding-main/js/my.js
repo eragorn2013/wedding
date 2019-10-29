@@ -1,3 +1,11 @@
+/*Читать полностью*/
+
+$(".blocks-item-wrap-more").on('click', function(){
+    $(".blocks-item.third .blocks-item-p").addClass("more");
+    $(this).remove();
+    return false;
+});
+
 /*Модальное окно "Этот раздел в разработке"*/
 
 $(".not-working").on('click', function(){

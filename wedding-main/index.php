@@ -171,7 +171,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/1<?= $expansion ?>" alt="Фотографы" title='Фотографы'>
 							<div class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon photographer"></i>
-								<span class="catalog-item-pic-head-span">Фотографы</span>
+								<a class="catalog-item-pic-head-span" href="#">Фотографы</a>
 								<div class="catalog-item-pic-head-info">
 									<div class="catalog-item-pic-head-item">Лимузины</div>
 									<div class="catalog-item-pic-head-item">Кабриолеты</div>
@@ -189,7 +189,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/2<?= $expansion ?>" alt="Видеографы" title='Видеографы'>
 							<div class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon videographer"></i>
-								<span class="catalog-item-pic-head-span">Видеографы</span>
+								<a class="catalog-item-pic-head-span" href="#">Видеографы</a>
 								<div class="catalog-item-pic-head-info">
 									<div class="catalog-item-pic-head-item">Лимузины</div>
 									<div class="catalog-item-pic-head-item">Кабриолеты</div>															
@@ -203,7 +203,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/3<?= $expansion ?>" alt="Организаторы" title='Организаторы'>
 							<div class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon organizer"></i>
-								<span class="catalog-item-pic-head-span">Организаторы</span>
+								<a class="catalog-item-pic-head-span" href="#">Организаторы</a>
 								<div class="catalog-item-pic-head-info">
 									<div class="catalog-item-pic-head-item">Лимузины</div>
 									<div class="catalog-item-pic-head-item">Кабриолеты</div>
@@ -227,7 +227,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/4<?= $expansion ?>" alt="Оформители" title='Оформители'>
 							<div class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon designer"></i>
-								<span class="catalog-item-pic-head-span">Оформители</span>
+								<a class="catalog-item-pic-head-span" href="#">Оформители</a>
 								<div class="catalog-item-pic-head-info">
 									<div class="catalog-item-pic-head-item">Лимузины</div>
 									<div class="catalog-item-pic-head-item">Кабриолеты</div>
@@ -248,7 +248,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/5<?= $expansion ?>" alt="Музыканты" title='Музыканты'>
 							<div class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon musicians"></i>
-								<span class="catalog-item-pic-head-span">Музыканты</span>
+								<a class="catalog-item-pic-head-span" href="#">Музыканты</a>
 								<div class="catalog-item-pic-head-info">
 									<div class="catalog-item-pic-head-item">Лимузины</div>
 									<div class="catalog-item-pic-head-item">Ретро</div>
@@ -264,7 +264,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/6<?= $expansion ?>" alt="Артисты" title='Артисты'>
 							<div class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon artists"></i>
-								<span class="catalog-item-pic-head-span">Артисты</span>
+								<a class="catalog-item-pic-head-span" href="#">Артисты</a>
 								<div class="catalog-item-pic-head-info">
 									<div class="catalog-item-pic-head-item">Лимузины</div>
 									<div class="catalog-item-pic-head-item">Ретро</div>
@@ -280,7 +280,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/7<?= $expansion ?>" alt="Флористы" title='Флористы'>
 							<div class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon florists"></i>
-								<span class="catalog-item-pic-head-span">Флористы</span>
+								<a class="catalog-item-pic-head-span" href="#">Флористы</a>
 								<div class="catalog-item-pic-head-info">
 									<div class="catalog-item-pic-head-item">Лимузины</div>
 									<div class="catalog-item-pic-head-item">Ретро</div>
@@ -295,7 +295,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/8<?= $expansion ?>" alt="Транспорт" title='Транспорт'>
 							<div class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon transport"></i>
-								<span class="catalog-item-pic-head-span">Транспорт</span>
+								<a class="catalog-item-pic-head-span" href="#">Транспорт</a>
 								<div class="catalog-item-pic-head-info">
 									<div class="catalog-item-pic-head-item">Лимузины</div>
 									<div class="catalog-item-pic-head-item">Ретро</div>
@@ -1019,8 +1019,9 @@
 					</div>
 					<div class="blocks-item small third">
 						<div class="blocks-item-wrap">								
-							<h2 class="blocks-item-head">Свадьба в<br> Петропавловск-Камчатском</h2>													
-							<p class="blocks-item-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>							
+							<h2 class="blocks-item-head">Свадьба в<br> Петропавловск-Камчатском</h2>							
+							<p class="blocks-item-p">Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscingelit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+							<a class="blocks-item-wrap-more" href="#">Читать полностью</a>							
 						</div>
 					</div>
 				</div>

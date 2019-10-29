@@ -592,6 +592,7 @@ header{
 .platforms-item-pic-head-span{
 	font-size: 18px;
 	line-height: 32px;
+	color: #fff;
 }
 .catalog-item-pic-head-icon,
 .platforms-item-pic-head-icon{	
@@ -744,7 +745,7 @@ header{
 	overflow: hidden;
 }
 #top-platforms{
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 	overflow: hidden;
 }
 .top-select,
@@ -866,7 +867,7 @@ header{
 }
 
 #services{
-	background: #FAF6F4;
+	background: #fef7f4;
 	padding-bottom: 80px;
 	position: relative;
 }
@@ -1369,6 +1370,9 @@ header{
 .blocks-item.third{
 	background: #8F7A99;
 }
+.blocks-item.third .blocks-item-wrap{
+
+}
 .blocks-item.second .blocks-item-wrap{
 	padding: 42px 35px 42px 35px;
 }
@@ -1419,11 +1423,24 @@ header{
 .blocks-item.third .blocks-item-wrap{	
 	border: 2px solid #B09EB8;
 }
+.blocks-item-wrap-more{
+	color: #fff;
+	margin-top: 15px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
 .blocks-item.third .blocks-item-p{
 	color: #fff;
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 0px;
+	max-height: 93px;
+	overflow: hidden;
+}
+.blocks-item.third .blocks-item-p.more{
+	max-height: none;
+	height: auto;
 }
 .blocks-item-head{
 	font-family: Forum;	
@@ -2020,7 +2037,7 @@ footer{
 		padding-bottom: 80px;
 	}
 	#top-platforms{
-		padding-bottom: 80px;
+		padding-bottom: 50px;
 	}
 	.top-select,
 	.top-platforms-select{
@@ -2855,7 +2872,7 @@ footer{
 		padding-bottom: 80px;
 	}
 	#top-platforms{
-		padding-bottom: 80px;
+		padding-bottom: 50px;
 	}
 	.top-select,
 	.top-platforms-select{
@@ -3746,7 +3763,7 @@ footer{
 		padding-bottom: 80px;
 	}
 	#top-platforms{
-		padding-bottom: 80px;
+		padding-bottom: 40px;
 	}
 	.top-select,
 	.top-platforms-select{
