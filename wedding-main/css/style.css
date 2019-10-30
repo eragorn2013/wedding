@@ -537,6 +537,7 @@ header{
 	border-radius: 30px;
 	cursor: pointer;
 	margin-bottom: 27px;
+	transition: all 0.5s ease;
 }
 .platforms-item{
 	width: 31.7%;
@@ -603,30 +604,63 @@ header{
     background-repeat: no-repeat;
     margin-right: 7px;
 }
+
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-icon.photographer{
+	background-position: -174px -231px;
+}
 .catalog-item-pic-head-icon.photographer{
 	background-position: -209px -73px;
+}
+
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-icon.organizer{
+	background-position: -220px -231px;
 }
 .catalog-item-pic-head-icon.organizer{
 	background-position: -55px -193px;
 }
+
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-icon.videographer{
+	background-position: -197px -231px;
+}
 .catalog-item-pic-head-icon.videographer{
 	background-position: -34px -227px;
+}
+
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-icon.designer{
+	background-position: -243px -231px;
 }
 .catalog-item-pic-head-icon.designer{
 	background-position: -84px -195px;
 }
+
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-icon.musicians{
+	background-position: -268px -231px;
+}
 .catalog-item-pic-head-icon.musicians{
 	background-position: -64px -227px;
+}
+
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-icon.artists{
+	background-position: -144px -162px;
 }
 .catalog-item-pic-head-icon.artists{
 	background-position: -145px -193px;
 }
+
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-icon.florists{
+	background-position: -220px -210px;
+}
 .catalog-item-pic-head-icon.florists{
 	background-position: -2px -193px;
+}
+
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-icon.transport{
+	background-position: -123px -27px;
 }
 .catalog-item-pic-head-icon.transport{
 	background-position: -177px -107px;
 }
+
 .platforms-item-pic-head-icon.restaurants{
 	background-position: -3px -128px;
 }
@@ -662,6 +696,7 @@ header{
 .catalog-item-pic-head-item{
 	width: 43%;
 	margin-bottom: 7px;
+	color: #000;
 }
 .catalog-item-pic:before{
 	content: "";
@@ -671,13 +706,18 @@ header{
 	border-radius: 30px;
 	left: 300px;
 	top: 0;
-	background: #8F7A99;
-	opacity: 0.85;
+	/*background: #8F7A99;*/
+	background: #fff;
+	opacity: 0.7;
 	transition: all 0.5s ease;
 }
 .catalog-item:hover:before,
 .platforms-item:hover:before{
 	opacity: 0;
+	transition: all 0.5s ease;
+}
+.catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head > .catalog-item-pic-head-span{
+	color: #000;
 	transition: all 0.5s ease;
 }
 .catalog-item:hover > .catalog-item-pic > .catalog-item-pic-head{	

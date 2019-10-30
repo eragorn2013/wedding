@@ -166,153 +166,153 @@
 					<h2 class="head-center-h">Каталог исполнителей</h2>
 				</div>
 				<div class="content catalog-content owl-carousel-4 owl-theme">
-					<div class="catalog-item">
-						<div class="catalog-item-pic">
+					<a class="catalog-item" href="#">
+						<span class="catalog-item-pic">
 							<img class="catalog-item-pic-img" src="img/pic/1<?= $expansion ?>" alt="Фотографы" title='Фотографы'>
-							<div class="catalog-item-pic-head">
+							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon photographer"></i>
-								<a class="catalog-item-pic-head-span" href="#">Фотографы</a>
-								<div class="catalog-item-pic-head-info">
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Кабриолеты</div>
-									<div class="catalog-item-pic-head-item">Внедорожники</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>
-									<div class="catalog-item-pic-head-item">Кареты</div>									
-								</div>
-							</div>
-						</div>						
-					</div>
+								<span class="catalog-item-pic-head-span">Фотографы</span>
+								<span class="catalog-item-pic-head-info">
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Кабриолеты</span>
+									<span class="catalog-item-pic-head-item">Внедорожники</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>
+									<span class="catalog-item-pic-head-item">Кареты</span>									
+								</span>
+							</span>
+						</span>						
+					</a>
 
-					<div class="catalog-item">
-						<div class="catalog-item-pic">
+					<a class="catalog-item" href="#">
+						<span class="catalog-item-pic">
 							<img class="catalog-item-pic-img" src="img/pic/2<?= $expansion ?>" alt="Видеографы" title='Видеографы'>
-							<div class="catalog-item-pic-head">
+							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon videographer"></i>
-								<a class="catalog-item-pic-head-span" href="#">Видеографы</a>
-								<div class="catalog-item-pic-head-info">
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Кабриолеты</div>															
-								</div>
-							</div>
-						</div>						
-					</div>
+								<span class="catalog-item-pic-head-span">Видеографы</span>
+								<span class="catalog-item-pic-head-info">
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Кабриолеты</span>															
+								</span>
+							</span>
+						</span>						
+					</a>
 
-					<div class="catalog-item">
-						<div class="catalog-item-pic">
+					<a class="catalog-item" href="#">
+						<span class="catalog-item-pic">
 							<img class="catalog-item-pic-img" src="img/pic/3<?= $expansion ?>" alt="Организаторы" title='Организаторы'>
-							<div class="catalog-item-pic-head">
+							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon organizer"></i>
-								<a class="catalog-item-pic-head-span" href="#">Организаторы</a>
-								<div class="catalog-item-pic-head-info">
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Кабриолеты</div>
-									<div class="catalog-item-pic-head-item">Внедорожники</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>
-									<div class="catalog-item-pic-head-item">Кареты</div>
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Кабриолеты</div>
-									<div class="catalog-item-pic-head-item">Внедорожники</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>
-									<div class="catalog-item-pic-head-item">Кареты</div>									
-								</div>
-							</div>
-						</div>						
-					</div>
+								<span class="catalog-item-pic-head-span">Организаторы</span>
+								<span class="catalog-item-pic-head-info">
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Кабриолеты</span>
+									<span class="catalog-item-pic-head-item">Внедорожники</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>
+									<span class="catalog-item-pic-head-item">Кареты</span>
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Кабриолеты</span>
+									<span class="catalog-item-pic-head-item">Внедорожники</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>
+									<span class="catalog-item-pic-head-item">Кареты</span>									
+								</span>
+							</span>
+						</span>						
+					</a>
 
-					<div class="catalog-item">
-						<div class="catalog-item-pic">
+					<a class="catalog-item" href="#">
+						<span class="catalog-item-pic">
 							<img class="catalog-item-pic-img" src="img/pic/4<?= $expansion ?>" alt="Оформители" title='Оформители'>
-							<div class="catalog-item-pic-head">
+							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon designer"></i>
-								<a class="catalog-item-pic-head-span" href="#">Оформители</a>
-								<div class="catalog-item-pic-head-info">
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Кабриолеты</div>
-									<div class="catalog-item-pic-head-item">Внедорожники</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>
-									<div class="catalog-item-pic-head-item">Кареты</div>
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Кабриолеты</div>
-									<div class="catalog-item-pic-head-item">Внедорожники</div>															
-								</div>
-							</div>
-						</div>						
-					</div>
+								<span class="catalog-item-pic-head-span">Оформители</span>
+								<span class="catalog-item-pic-head-info">
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Кабриолеты</span>
+									<span class="catalog-item-pic-head-item">Внедорожники</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>
+									<span class="catalog-item-pic-head-item">Кареты</span>
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Кабриолеты</span>
+									<span class="catalog-item-pic-head-item">Внедорожники</span>															
+								</span>
+							</span>
+						</span>						
+					</a>
 
-					<div class="catalog-item">
-						<div class="catalog-item-pic">
+					<a class="catalog-item" href="#">
+						<span class="catalog-item-pic">
 							<img class="catalog-item-pic-img" src="img/pic/5<?= $expansion ?>" alt="Музыканты" title='Музыканты'>
-							<div class="catalog-item-pic-head">
+							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon musicians"></i>
-								<a class="catalog-item-pic-head-span" href="#">Музыканты</a>
-								<div class="catalog-item-pic-head-info">
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>
-									<div class="catalog-item-pic-head-item">Кареты</div>																
-								</div>
-							</div>
-						</div>						
-					</div>
+								<span class="catalog-item-pic-head-span">Музыканты</span>
+								<span class="catalog-item-pic-head-info">
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>
+									<span class="catalog-item-pic-head-item">Кареты</span>																
+								</span>
+							</span>
+						</span>						
+					</a>
 
-					<div class="catalog-item">
-						<div class="catalog-item-pic">
+					<a class="catalog-item" href="#">
+						<span class="catalog-item-pic">
 							<img class="catalog-item-pic-img" src="img/pic/6<?= $expansion ?>" alt="Артисты" title='Артисты'>
-							<div class="catalog-item-pic-head">
+							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon artists"></i>
-								<a class="catalog-item-pic-head-span" href="#">Артисты</a>
-								<div class="catalog-item-pic-head-info">
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>
-									<div class="catalog-item-pic-head-item">Кареты</div>																
-								</div>
-							</div>
-						</div>						
-					</div>
+								<span class="catalog-item-pic-head-span">Артисты</span>
+								<span class="catalog-item-pic-head-info">
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>
+									<span class="catalog-item-pic-head-item">Кареты</span>																
+								</span>
+							</span>
+						</span>						
+					</a>
 
-					<div class="catalog-item">
-						<div class="catalog-item-pic">
+					<a class="catalog-item" href="#">
+						<span class="catalog-item-pic">
 							<img class="catalog-item-pic-img" src="img/pic/7<?= $expansion ?>" alt="Флористы" title='Флористы'>
-							<div class="catalog-item-pic-head">
+							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon florists"></i>
-								<a class="catalog-item-pic-head-span" href="#">Флористы</a>
-								<div class="catalog-item-pic-head-info">
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>														
-								</div>
-							</div>
-						</div>						
-					</div>
+								<span class="catalog-item-pic-head-span">Флористы</span>
+								<span class="catalog-item-pic-head-info">
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>														
+								</span>
+							</span>
+						</span>						
+					</a>
 
-					<div class="catalog-item">
-						<div class="catalog-item-pic">
+					<a class="catalog-item" href="#">
+						<span class="catalog-item-pic">
 							<img class="catalog-item-pic-img" src="img/pic/8<?= $expansion ?>" alt="Транспорт" title='Транспорт'>
-							<div class="catalog-item-pic-head">
+							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon transport"></i>
-								<a class="catalog-item-pic-head-span" href="#">Транспорт</a>
-								<div class="catalog-item-pic-head-info">
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>	
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Кабриолеты</div>
-									<div class="catalog-item-pic-head-item">Внедорожники</div>
-									<div class="catalog-item-pic-head-item">Ретро</div>
-									<div class="catalog-item-pic-head-item">Микроавтобусы</div>
-									<div class="catalog-item-pic-head-item">Кареты</div>
-									<div class="catalog-item-pic-head-item">Лимузины</div>
-									<div class="catalog-item-pic-head-item">Кабриолеты</div>
-									<div class="catalog-item-pic-head-item">Внедорожники</div>													
-								</div>
-							</div>
-						</div>						
-					</div>					
+								<span class="catalog-item-pic-head-span">Транспорт</span>
+								<span class="catalog-item-pic-head-info">
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>	
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Кабриолеты</span>
+									<span class="catalog-item-pic-head-item">Внедорожники</span>
+									<span class="catalog-item-pic-head-item">Ретро</span>
+									<span class="catalog-item-pic-head-item">Микроавтобусы</span>
+									<span class="catalog-item-pic-head-item">Кареты</span>
+									<span class="catalog-item-pic-head-item">Лимузины</span>
+									<span class="catalog-item-pic-head-item">Кабриолеты</span>
+									<span class="catalog-item-pic-head-item">Внедорожники</span>													
+								</span>
+							</span>
+						</span>						
+					</a>					
 				</div>
 				<div class="catalog-buttons">
 					<a class="catalog-buttons-link first" href="#">Присоединиться к исполнителям</a>
