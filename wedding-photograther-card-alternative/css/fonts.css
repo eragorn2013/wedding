@@ -1,0 +1,15 @@
+@font-face
+{
+	font-family: 'forum';
+	src: url('../fonts/Forum.eot');
+	src: url('../fonts/Forum.woff');		
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'roboto-regular';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: url('../fonts/Roboto-Regular.woff');		
+	font-display: swap;
+}
