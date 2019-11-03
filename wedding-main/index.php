@@ -36,7 +36,7 @@
 						<input class="header-search-input" type="text" name="search" placeholder="Поиск">
 					</div>
 					<div class="header-auth">
-						<a class="header-auth-link input not-working" href="#">Войти</a>
+						<a class="header-auth-link input" href="#">Войти</a>
 						<a class="header-auth-link reg" href="#">Регистрация</a>
 					</div>					
 				</div>
@@ -1092,7 +1092,31 @@
 					</div>
 				</div>
 			</div>
-		</footer>		
+		</footer>
+		<section id="modal-input">
+			<div class="container modal-input-container">
+				<div class="content modal-input-content">
+					<i class="modal-input-close"></i>
+					<form class="modal-input-form">
+						<div class="modal-input-form-field">
+							<input class="modal-input-form-field-input phone" type="text" name="phone" placeholder="Номер телефона">
+						</div>
+						<div class="modal-input-form-field">
+							<input class="modal-input-form-field-input pass" type="password" name="pass" placeholder="Пароль">
+						</div>
+						<div class="modal-input-form-submit">
+							<div class="modal-input-form-submit-socials">
+								<a class="modal-input-form-submit-socials-link vk" href="#"></a>
+								<a class="modal-input-form-submit-socials-link fb" href="#"></a>
+								<a class="modal-input-form-submit-socials-link gl" href="#"></a>
+								<a class="modal-input-form-submit-socials-link ya" href="#"></a>
+							</div>
+							<button class="modal-input-form-submit-button">Войти</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>		
 		<section id="modal-video">
 			<div class="container modal-video-container">
 				<div class="content modal-video-content">
