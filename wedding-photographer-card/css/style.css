@@ -380,8 +380,8 @@ header{
 .card-all-left-comments-more,
 .card-all-left-questions-more,
 .card-all-right-item-submit-link{
-	background: #ABC2B0;
-	color: #fff;
+	border: 1px solid #ABC2B0;
+	color: #000;
 	border-radius: 30px;
 	display: block;
 	padding: 15px 0;
@@ -389,18 +389,18 @@ header{
 	transition: all 0.2s ease-out;
 	font-size: 16px;
 }
-.card-all-left-questions-more{
-	background: #8F7A99;
+.card-all-left-questions-more{	
+	border: 1px solid #8F7A99;
 	transition: all 0.2s ease-out;
 }
 .card-all-left-questions-more:hover{
-	background: #7b5c8a;
+	box-shadow: inset 0px 0px 20px rgba(123,92,138,0.4);
 	transition: all 0.2s ease-out;
 }
 .card-all-left-images-more:hover,
 .card-all-left-comments-more:hover,
 .card-all-right-item-submit-link:hover{
-	background: #7fa487;
+	box-shadow: inset 0px 0px 20px rgba(171,194,176,0.4);
 	transition: all 0.2s ease-out;
 }
 
