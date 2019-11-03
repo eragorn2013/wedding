@@ -712,7 +712,7 @@ header{
 .services-buttons-link,
 .best-buttons-link,
 .shop-buttons-link{
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 	border-radius: 30px;
 	padding: 15px 32px;
@@ -721,20 +721,20 @@ header{
 	z-index: 10;
 }
 .catalog-buttons-link.first,
-.platforms-buttons-link.first{
-	background: #8F7A99;
+.platforms-buttons-link.first{	
+	border: 1px solid #8F7A99;
 	margin-right: 10px;
 }
 .catalog-buttons-link.last,
 .platforms-buttons-link.last,
 .services-buttons-link.last,
 .best-buttons-link.last,
-.shop-buttons-link.last{
-	background: #ABC2B0;
+.shop-buttons-link.last{	
+	border: 1px solid #ABC2B0;
 }
 .catalog-buttons-link.first:hover,
 .platforms-buttons-link.first:hover{
-	background: #836d8d;
+	box-shadow: inset 0px 0px 15px rgba(143,122,153, 0.4);
 	transition: all 0.2s ease-out;
 }
 .catalog-buttons-link.last:hover,
@@ -742,7 +742,7 @@ header{
 .services-buttons-link.last:hover,
 .best-buttons-link.last:hover,
 .shop-buttons-link.last:hover{
-	background: #97b19d;
+	box-shadow: inset 0px 0px 15px rgba(171,194,176, 0.4);
 	transition: all 0.2s ease-out;
 }
 
