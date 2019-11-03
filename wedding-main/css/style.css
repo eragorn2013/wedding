@@ -223,7 +223,7 @@ header{
 .nav-list-item.submenu:hover > .nav-list-item-submenu{
 	opacity: 1;
 	transition: all 0.2s ease;
-	max-height: 300px;
+	max-height: 1000px;
 	padding: 15px;
 }
 .nav-list-item-submenu-list-item{
@@ -1870,7 +1870,7 @@ footer{
 		z-index: 8;
 	}
 	.nav-list-item.submenu:hover > .nav-list-item-submenu{		
-		max-height: 300px;
+		max-height: 1000px;
 		padding: 15px;
 	}	
 	.nav-list-item-submenu-list-item-link{
@@ -2698,7 +2698,7 @@ footer{
 		z-index: 8;
 	}
 	.nav-list-item.submenu:hover > .nav-list-item-submenu{		
-		max-height: 300px;
+		max-height: 1000px;
 		padding: 15px;
 	}	
 	.nav-list-item-submenu-list-item-link{
@@ -3551,7 +3551,7 @@ footer{
 		z-index: 8;
 	}
 	.nav-list-item.submenu:hover > .nav-list-item-submenu{		
-		max-height: 300px;
+		max-height: 1000px;
 		padding: 0px;
 		position: static;
 	}	
@@ -4445,7 +4445,7 @@ footer{
 		z-index: 8;
 	}
 	.nav-list-item.submenu:hover > .nav-list-item-submenu{		
-		max-height: 300px;
+		max-height: 1000px;
 		padding: 0px;
 		position: static;
 	}	
