@@ -1150,8 +1150,7 @@
 	<script src='js/lightgallery/modules/lg-video.min.js'></script>
 	<script src="js/maskedinput/maskedinput.min.js"></script>
 	<script src="js/my.js?2409191705"></script>	
-	<style type="text/css">
-		.head-left:before, .head-center:before, .head-center:after,		
+	<style type="text/css">				
 		.nav-list-item-link.submenu-icon:after, .header-logo-link-city-icon,
 		.offer-counters-list-item-icon, .catalog-item-pic-head-icon, 
 		.platforms-item-pic-head-icon, .top-platforms-item-info-span.metro:before,
@@ -1184,22 +1183,7 @@
 		}
 		.offer-waves{
 			background-image: url(img/waves<?= $expansion ?>);
-		}
-		@media (max-width: 920px) and (min-width:640px){
-			.head-left:after{
-				background-image: url(img/icons<?= $expansion ?>);
-			}
-		}
-		@media (max-width: 660px) and (min-width:490px){
-			.head-left:after{
-				background-image: url(img/icons<?= $expansion ?>);
-			}
-		}
-		@media (max-width: 510px){
-			.head-left:after{
-				background-image: url(img/icons<?= $expansion ?>);
-			}
-		}
+		}		
 	</style>
 </body>
 </html>

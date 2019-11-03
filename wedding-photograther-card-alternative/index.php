@@ -16,8 +16,7 @@
 	<title>Главный свадебный портал</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<style>
-		.head-left:before, .head-center:before, .head-center:after,		
+	<style>		
 		.nav-list-item-link.submenu-icon:after, .header-logo-link-city-icon,		
 		.socials-link-icon, .m-menu, .best-item-left-contacts-phone:before,
 		.best-item-left-contacts-socials-link.inst:before, .best-item-left-contacts-socials-link.vk:before,
@@ -34,22 +33,7 @@
 		}		
 		.blocks-item-wrap{
 			background-image: url(img/flowers<?= $expansion ?>);
-		}
-		@media (max-width: 920px) and (min-width:640px){
-			.head-left:after{
-				background-image: url(img/icons<?= $expansion ?>);
-			}
-		}
-		@media (max-width: 660px) and (min-width:490px){
-			.head-left:after{
-				background-image: url(img/icons<?= $expansion ?>);
-			}
-		}
-		@media (max-width: 510px){
-			.head-left:after{
-				background-image: url(img/icons<?= $expansion ?>);
-			}
-		}
+		}		
 	</style>	
 </head>
 <body>
