@@ -386,8 +386,8 @@ header{
 }
 .card-all-left-images-more,
 .card-all-right-item-submit-link{
-	background: #ABC2B0;
-	color: #fff;
+	border: 1px solid #ABC2B0;
+	color: #000;
 	border-radius: 30px;
 	display: block;
 	padding: 15px 0;
@@ -398,7 +398,7 @@ header{
 
 .card-all-left-images-more:hover,
 .card-all-right-item-submit-link:hover{
-	background: #7fa487;
+	box-shadow: inset 0px 0px 20px rgba(171,194,176,0.4);
 	transition: all 0.2s ease-out;
 }
 
