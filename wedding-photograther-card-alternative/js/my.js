@@ -20,7 +20,11 @@ $(".not-working-form").on('submit', function(){
 });
 /*Маска для ввода номера телефона*/
 
-$(".not-working-form-input").mask("+7(999)999-99-99");
+$(".not-working-form-input, .modal-input-form-field-input.phone").mask("+7(999)999-99-99", {completed:function(){
+    if($(".modal-input-form-field-input.phone").hasClass("error")){
+        $(".modal-input-form-field-input.phone").removeClass("error");
+    }  
+}});
 /*Прилипания карточки фотографа при скролле*/
 
 $(window).on('scroll', function(){
@@ -212,3 +216,46 @@ $(".top-platforms-container-arrow.next").on('click', function(){
 $(".top-platforms-container-arrow.prev").on('click', function(){
     owl3.trigger('prev.owl.carousel');
 });*/
+
+$(".header-auth-link.input").on('click', function(){    
+    if($("#modal-input").is(":hidden")){
+        $("#modal-input").stop().fadeIn(200, function(){
+            $(".modal-input-content").stop().slideDown(200);
+        });
+    }
+    return false;
+});
+
+$(".modal-input-form").on('submit', function(){
+    var login=$(".modal-input-form-field-input.phone").val();
+    var pass=$(".modal-input-form-field-input.pass").val();
+    var error=false;
+    if(!login){
+       $(".modal-input-form-field-input.phone").addClass("error"); 
+       error=true;
+    }
+    if(!pass){
+        $(".modal-input-form-field-input.pass").addClass("error");
+        error=true; 
+    }
+    if(error) return false;   
+});
+$(".modal-input-form-field-input.pass").on("input", function(){
+    var value=$(this).val();    
+    if(value){
+        if($(this).hasClass("error"))
+            $(this).removeClass("error");
+    }
+    else $(this).addClass("error");    
+});
+$("#modal-input, .modal-input-close").on("click", function(){
+    $(".modal-input-content").stop().slideUp(200, function(){
+        $("#modal-input").stop().fadeOut(200, function(){
+            $(".modal-input-form-field-input.phone").removeClass("error").val("");
+            $(".modal-input-form-field-input.pass").removeClass("error").val("");
+        });
+    });
+});
+$(".modal-input-content").on("click", function(e){
+    e.stopPropagation();
+});
