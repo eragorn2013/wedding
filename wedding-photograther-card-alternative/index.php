@@ -47,7 +47,7 @@
 							<img class="header-logo-link-img" src="img/logo<?= $expansion ?>" alt='Логотип'>
 						</a>
 						<div class="header-logo-link-city-wrap">
-							<input class="header-logo-link-city" type="text" value="Наро-фоминск">
+							<input class="header-logo-link-city" type="text" title="Введите название города" value="Наро-фоминск" placeholder="Введите название города">
 							<i class="header-logo-link-city-icon"></i>
 						</div>
 					</div>

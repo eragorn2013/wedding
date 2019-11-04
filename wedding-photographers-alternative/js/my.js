@@ -97,7 +97,20 @@ $(".modal-video-content").on('click', function(e){
 /*Автокомплит городов*/
 
 $(".header-logo-link-city").kladr({
-    type: $.kladr.type.city
+    type: $.kladr.type.city,
+    select: function(obj){
+        console.log("После выбора города тут можно делать редирект");
+    }
+});
+$(".header-logo-link-city-icon").on('click', function(){
+    $(this).prev(".header-logo-link-city").val("");
+    $(this).prev(".header-logo-link-city").focus();
+});
+$(".header-logo-link-city").on("input", function(){
+    console.log("Пользователь вводит город вручную (без cladr) тут должна быть проверка на совпадения, если город совпал, то делаем редирект");
+});
+$(".header-logo-link-city").on('click', function(){    
+    $(this).keyup();
 });
 
 /*Карусель с акциями*/
