@@ -82,6 +82,9 @@ $(".header-logo-link-city-icon").on('click', function(){
 $(".header-logo-link-city").on("input", function(){
     console.log("Пользователь вводит город вручную (без cladr) тут должна быть проверка на совпадения, если город совпал, то делаем редирект");
 });
+$(".header-logo-link-city").on('click', function(){    
+    $(this).keyup();
+});
 
 /*Карусель с акциями*/
 
