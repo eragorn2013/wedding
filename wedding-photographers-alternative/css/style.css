@@ -818,7 +818,8 @@ footer{
     cursor: pointer;
 }
 
-#modal-input{
+#modal-input,
+#modal-reg{
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -828,14 +829,16 @@ footer{
 	z-index: 1000000;	
 	display: none;
 }
-.modal-input-container{
+.modal-input-container,
+.modal-reg-container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	height: 100%;
 }
-.modal-input-content{
+.modal-input-content,
+.modal-reg-content{
 	background: #fff;
 	padding: 30px;
 	border-radius: 30px;
@@ -844,7 +847,8 @@ footer{
 	display: none;
 	position: relative;
 }
-.modal-input-close{
+.modal-input-close,
+.modal-reg-close{
 	width: 30px;
 	height: 30px;
 	display: block;
@@ -859,14 +863,51 @@ footer{
     opacity: .7;
     transition: all 0.2s ease-out;
 }
-.modal-input-close:hover{
+.modal-input-close:hover,
+.modal-reg-close:hover{
 	opacity: 1;
 	transition: all 0.2s ease-out;
 }
-.modal-input-form-field{
+.modal-reg-form{
+	position: relative;
+}
+.modal-reg-form-loader{
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	top: calc(50% - 64px / 2);
+	left: calc(50% - 64px / 2);
+	z-index: 10;
+	display: none;
+}
+.modal-input-form-field,
+.modal-reg-form-field{
 	margin-bottom: 15px;
 }
-.modal-input-form-field-input{
+.modal-reg-form-error-server{
+	margin-bottom: 10px;
+	width: 100%;
+	display: block;
+	color: #c72e32;
+	text-align: center;
+}
+.modal-reg-form-field.check{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.modal-reg-form-field-check-input{
+	margin-right: 4px;
+}
+.modal-reg-form-field-check-text,
+.modal-reg-form-field-check-text-link{
+	font-size: 12px;
+}
+.modal-reg-form-field-check-text{
+	width: 94%;
+}
+.modal-input-form-field-input,
+.modal-reg-form-field-input{
 	border: 1px solid #E7E7E7;
     box-sizing: border-box;
     border-radius: 30px;
@@ -875,9 +916,18 @@ footer{
     padding: 9px 44px 9px 25px;
     width: 100%;    
 }
-.modal-input-form-field-input.error{
+.modal-input-form-field-input.error,
+.modal-reg-form-field-input.error{
 	border: 1px solid #c72e32;
 }
+.modal-reg-form-field-error{
+	width: 100%;
+	display: block;
+	font-size: 12px;
+	color: #c72e32;
+	text-align: center;
+}
+
 .modal-input-form-submit{
 	display: flex;
 	justify-content: space-between;
@@ -910,7 +960,8 @@ footer{
 .modal-input-form-submit-socials-link.ya{
 	background-position: -92px -249px;
 }
-.modal-input-form-submit-button{
+.modal-input-form-submit-button,
+.modal-reg-form-submit-button{
 	background: #ABC2B0;
 	padding: 10px 30px;
 	border: 0;
@@ -919,7 +970,11 @@ footer{
 	border-radius: 30px;
 	transition: all 0.2s ease-out;
 }
-.modal-input-form-submit-button:hover{
+.modal-reg-form-submit-button{
+	width: 100%;
+}
+.modal-input-form-submit-button:hover,
+.modal-reg-form-submit-button:hover{
 	background: #91af98;
 	transition: all 0.2s ease-out;
 }
@@ -1304,12 +1359,14 @@ footer{
 		background-size: 237px;
 	    background-position: -2px -131px;	    
 	}
-	.modal-input-content{		
+	.modal-input-content,
+	.modal-reg-content{		
 		padding: 30px;
 		border-radius: 30px;		
 		width: 50%;		
 	}
-	.modal-input-close{
+	.modal-input-close,
+	.modal-reg-close{
 		width: 30px;
 		height: 30px;		
 		top: -30px;
@@ -1317,14 +1374,17 @@ footer{
 		background-position: -5px -229px;
 	    background-size: 409px;	    
 	}
-	.modal-input-form-field{
+	.modal-input-form-field,
+	.modal-reg-form-field{
 		margin-bottom: 15px;
 	}
-	.modal-input-form-field-input{	    
+	.modal-input-form-field-input,
+	.modal-reg-form-field-input{	    
 	    line-height: 24px;
 	    padding: 9px 44px 9px 25px;	   
 	}	
-	.modal-input-form-submit-button{		
+	.modal-input-form-submit-button,
+	.modal-reg-form-submit-button{		
 		padding: 10px 30px;		
 		border-radius: 30px;		
 	}
@@ -1721,12 +1781,14 @@ footer{
 		background-size: 237px;
 	    background-position: -2px -131px;	    
 	}
-	.modal-input-content{		
+	.modal-input-content,
+	.modal-reg-content{		
 		padding: 30px;
 		border-radius: 30px;		
 		width: 70%;		
 	}
-	.modal-input-close{
+	.modal-input-close,
+	.modal-reg-close{
 		width: 30px;
 		height: 30px;		
 		top: -30px;
@@ -1734,14 +1796,17 @@ footer{
 		background-position: -5px -229px;
 	    background-size: 409px;	    
 	}
-	.modal-input-form-field{
+	.modal-input-form-field,
+	.modal-reg-form-field{
 		margin-bottom: 15px;
 	}
-	.modal-input-form-field-input{	    
+	.modal-input-form-field-input,
+	.modal-reg-form-field-input{	    
 	    line-height: 24px;
 	    padding: 9px 44px 9px 25px;	   
 	}	
-	.modal-input-form-submit-button{		
+	.modal-input-form-submit-button,
+	.modal-reg-form-submit-button{		
 		padding: 10px 30px;		
 		border-radius: 30px;		
 	}
@@ -2162,12 +2227,14 @@ footer{
 		background-size: 237px;
 	    background-position: -2px -131px;	    
 	}
-	.modal-input-content{		
+	.modal-input-content,
+	.modal-reg-content{		
 		padding: 30px;
 		border-radius: 30px;		
 		width: 90%;		
 	}
-	.modal-input-close{
+	.modal-input-close,
+	.modal-reg-close{
 		width: 30px;
 		height: 30px;		
 		top: -30px;
@@ -2175,14 +2242,17 @@ footer{
 		background-position: -5px -229px;
 	    background-size: 409px;	    
 	}
-	.modal-input-form-field{
+	.modal-input-form-field,
+	.modal-reg-form-field{
 		margin-bottom: 15px;
 	}
-	.modal-input-form-field-input{	    
+	.modal-input-form-field-input,
+	.modal-reg-form-field-input{	    
 	    line-height: 24px;
 	    padding: 9px 44px 9px 25px;	   
 	}	
-	.modal-input-form-submit-button{		
+	.modal-input-form-submit-button,
+	.modal-reg-form-submit-button{		
 		padding: 10px 30px;		
 		border-radius: 30px;		
 	}
@@ -2618,12 +2688,14 @@ footer{
 	    background-position: -2px -131px;	    
 	}
 
-	.modal-input-content{		
+	.modal-input-content,
+	.modal-reg-content{		
 		padding: 30px 15px;
 		border-radius: 30px;		
 		width: 98%;		
 	}
-	.modal-input-close{
+	.modal-input-close,
+	.modal-reg-close{
 		width: 30px;
 		height: 30px;		
 		top: -35px;
@@ -2631,16 +2703,24 @@ footer{
 		background-position: -5px -229px;
 	    background-size: 409px;	    
 	}
-	.modal-input-form-field{
+	.modal-reg-form-field-check-text{
+		width: 85%;
+	}
+	.modal-input-form-field,
+	.modal-reg-form-field{
 		margin-bottom: 8px;
 	}
-	.modal-input-form-field-input{	    
+	.modal-input-form-field-input,
+	.modal-reg-form-field-input{	    
 	    line-height: 24px;
 	    padding: 9px 44px 9px 25px;	   
 	}	
-	.modal-input-form-submit-button{		
+	.modal-input-form-submit-button,
+	.modal-reg-form-submit-button{		
 		padding: 10px 30px;		
-		border-radius: 30px;		
+		border-radius: 30px;	
+		width: 100%;
+		margin-top: 6px;	
 	}
 }
 

@@ -20,7 +20,11 @@ $(".not-working-form").on('submit', function(){
 });
 /*Маска для ввода номера телефона*/
 
-$(".not-working-form-input, .modal-input-form-field-input.phone").mask("+7(999)999-99-99", {completed:function(){
+$(".not-working-form-input, .modal-input-form-field-input.phone, .modal-reg-form-field-input.phone").mask("+7(999)999-99-99", {completed:function(){
+    if($(".modal-reg-form-field-input.phone").hasClass("error")){
+        $(".modal-reg-form-field-error.phone").text("");
+        $(".modal-reg-form-field-input.phone").removeClass("error");
+    }  
     if($(".modal-input-form-field-input.phone").hasClass("error")){
         $(".modal-input-form-field-input.phone").removeClass("error");
     }  
@@ -229,6 +233,197 @@ $(".top-platforms-container-arrow.next").on('click', function(){
 $(".top-platforms-container-arrow.prev").on('click', function(){
     owl3.trigger('prev.owl.carousel');
 });*/
+
+/*Модальное окно "Регистрация"*/
+
+$(".header-auth-link.reg").on('click', function(){    
+    if($("#modal-reg").is(":hidden")){
+        $("#modal-reg").stop().fadeIn(200, function(){
+            $(".modal-reg-content").stop().slideDown(200);
+        });
+    }
+    return false;
+});
+$("#modal-reg, .modal-reg-close").on("click", function(){
+    $(".modal-reg-content").stop().slideUp(200, function(){
+        $("#modal-reg").stop().fadeOut(200, function(){
+            
+        });
+    });
+});
+$(".modal-reg-content").on("click", function(e){
+    e.stopPropagation();
+});
+
+$(".modal-reg-form").on('submit', function(){
+    var name=$(".modal-reg-form-field-input.name", this).val();
+    var phone=$(".modal-reg-form-field-input.phone", this).val();
+    var email=$(".modal-reg-form-field-input.email", this).val();
+    var pass=$(".modal-reg-form-field-input.pass", this).val();
+    var passRepeat=$(".modal-reg-form-field-input.pass-repeat", this).val();
+    var check=false;
+    if($(".modal-reg-form-field-check-input").is(":checked")) check=true;
+    var regEmail = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    var error=false;
+
+    if(!name){
+        $(".modal-reg-form-field-error.name", this).text("Введите имя");
+        $(".modal-reg-form-field-input.name", this).addClass("error");
+        error=true;
+    }
+    else{
+        $(".modal-reg-form-field-error.name", this).text("");
+        $(".modal-reg-form-field-input.name", this).removeClass("error");
+    }
+    if(!phone){
+        $(".modal-reg-form-field-error.phone", this).text("Введите номер телефона");
+        $(".modal-reg-form-field-input.phone", this).addClass("error");
+        error=true;
+    }
+    else{
+        $(".modal-reg-form-field-error.phone", this).text("");
+        $(".modal-reg-form-field-input.phone", this).removeClass("error");
+    }   
+    if(regEmail.test(email) == false && email != '') {
+        $(".modal-reg-form-field-error.email", this).text("Введите корректный email");
+        $(".modal-reg-form-field-input.email", this).addClass("error");
+        error=true;
+    }
+    else if(regEmail.test(email) == false && !email){
+        $(".modal-reg-form-field-error.email", this).text("Введите email");
+        $(".modal-reg-form-field-input.email", this).addClass("error");
+        error=true;
+    }
+    else{
+        $(".modal-reg-form-field-error.email", this).text("");
+        $(".modal-reg-form-field-input.email", this).removeClass("error");
+    }
+    if(!pass){
+        $(".modal-reg-form-field-error.pass", this).text("Придумайте пароль");
+        $(".modal-reg-form-field-input.pass", this).addClass("error");
+        error=true;
+    }
+    else{
+        $(".modal-reg-form-field-error.pass", this).text("");
+        $(".modal-reg-form-field-input.pass", this).removeClass("error");        
+        if(!passRepeat || (passRepeat !== pass)){
+            $(".modal-reg-form-field-error.pass-repeat", this).text("Пароли не совпадают");
+            $(".modal-reg-form-field-input.pass-repeat", this).addClass("error");
+            error=true;
+        }
+        else{
+            $(".modal-reg-form-field-error.pass-repeat", this).text("");
+            $(".modal-reg-form-field-input.pass-repeat", this).removeClass("error");
+        }
+    }
+    if(!check){
+        $(".modal-reg-form-field-error.check", this).text("Подтвердите согласие");
+        $(".modal-reg-form-field-input.check", this).addClass("error");
+        error=true;
+    }
+    else{
+        $(".modal-reg-form-field-error.check", this).text("");
+            $(".modal-reg-form-field-input.check", this).removeClass("error");
+    }   
+
+    $(".modal-reg-form-field-input.name", this).on("input", function(){    
+        if(!$(this).val()){
+            $(".modal-reg-form-field-error.name").text("Введите имя");
+            $(this).addClass("error"); 
+            error=true;       
+        }
+        else{
+            $(".modal-reg-form-field-error.name").text("");
+            $(this).removeClass("error");
+        }
+    });
+
+    $(".modal-reg-form-field-input.email", this).on("input", function(){    
+        if(regEmail.test($(this).val()) == false && $(this).val() != '') {
+            $(".modal-reg-form-field-error.email").text("Введите корректный email");
+            $(this).addClass("error");
+            error=true;
+        }
+        else if(regEmail.test($(this).val()) == false && !$(this).val()){
+            $(".modal-reg-form-field-error.email").text("Введите email");
+            $(this).addClass("error");
+            error=true;
+        }
+        else{
+            $(".modal-reg-form-field-error.email").text("");
+            $(this).removeClass("error");
+        }
+    });
+
+    $(".modal-reg-form-field-input.pass, .modal-reg-form-field-input.pass-repeat", this).on("input", function(){        
+        if(!($(".modal-reg-form-field-input.pass").val())){
+            $(".modal-reg-form-field-error.pass").text("Придумайте пароль");
+            $(".modal-reg-form-field-input.pass").addClass("error");
+            error=true;
+        }
+        else{
+
+            $(".modal-reg-form-field-error.pass").text("");
+            $(".modal-reg-form-field-input.pass").removeClass("error");        
+            if(!($(".modal-reg-form-field-input.pass-repeat").val()) || ($(".modal-reg-form-field-input.pass-repeat").val() !== $(".modal-reg-form-field-input.pass").val())){
+                $(".modal-reg-form-field-error.pass-repeat").text("Пароли не совпадают");
+                $(".modal-reg-form-field-input.pass-repeat").addClass("error");
+                error=true;               
+            }
+            else{
+
+                $(".modal-reg-form-field-error.pass-repeat").text("");
+                $(".modal-reg-form-field-input.pass-repeat").removeClass("error");
+            }
+        }
+    });
+
+    $(".modal-reg-form-field-check-input").on('change', function(){        
+        if(!($(this).is(':checked'))){
+            $(".modal-reg-form-field-error.check").text("Подтвердите согласие");
+            $(this).addClass("error");
+            error=true;
+        }
+        else{
+            $(".modal-reg-form-field-error.check").text("");
+            $(this).removeClass("error");
+        }
+    });
+
+    if(error) return false;
+
+    $(".modal-reg-form-loader").show();
+    $(".modal-reg-form-error-server").text("")
+    $.post('registration.php', {
+        "name": name,
+        "phone": phone,
+        "email": email,
+        "pass": pass,
+        "passRepeat": passRepeat,
+        "check": check
+    }, function(data){
+        data=JSON.parse(data);        
+        if(data.error==true){            
+           $(".modal-reg-form-error-server").text(data.message);
+           $(".modal-reg-form-loader").hide(); 
+           return false;
+        }
+        else{
+            $(".modal-reg-form").css({
+                "display": "flex",
+                "justify-content": "center",
+                "align-items": "center"
+            });
+            $(".modal-reg-form").html("<span class='modal-reg-form-ok'>"+data.message+"</span>");
+            $(".modal-reg-form-loader").hide(); 
+        }
+
+
+    });
+
+    return false;
+    
+});
 
 $(".header-auth-link.input").on('click', function(){    
     if($("#modal-input").is(":hidden")){
