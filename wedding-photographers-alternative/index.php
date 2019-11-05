@@ -546,14 +546,14 @@
 			</div>
 		</section>			
 	</div>	
-	<link rel="stylesheet" type="text/css" href="js/owlcarousel/dist/assets/owl.carousel.css?2209191335">  
-    <link rel="stylesheet" type="text/css" href="js/owlcarousel/dist/assets/owl.theme.green.css">
+	<link rel="stylesheet" type="text/css" href="js/owlcarousel/owl.carousel.css?2209191335">  
+    <link rel="stylesheet" type="text/css" href="js/owlcarousel/owl.theme.green.css">
     <link rel="stylesheet" type="text/css" href="js/lightgallery/dist/css/lightgallery.min.css">
 	<link rel="stylesheet" type="text/css" href="js/kladr/jquery.kladr.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css?2709191842">
 	<script src="js/jquery/jquery-3.4.1.js"></script>
 	<script src="js/kladr/jquery.kladr.min.js"></script>	
-	<script src='js/owlcarousel/dist/owl.carousel.min.js'></script>
+	<script src='js/owlcarousel/owl.carousel.min.js'></script>
 	<script src='js/lightgallery/dist/js/lightgallery.min.js'></script>
 	<script src='js/lightgallery/modules/lg-video.min.js'></script>
 	<script src="js/maskedinput/maskedinput.min.js"></script>
