@@ -1105,6 +1105,41 @@
 				</div>
 			</div>
 		</footer>
+		<section id="modal-reg">
+			<div class="container modal-reg-container">
+				<div class="content modal-reg-content">
+					<i class="modal-reg-close"></i>
+					<form class="modal-reg-form">
+						<div class="modal-reg-form-field">
+							<input class="modal-reg-form-field-input name" type="text" name="reg-name" placeholder="Имя*">
+							<span class="modal-reg-form-field-error name"></span>
+						</div>
+						<div class="modal-reg-form-field">
+							<input class="modal-reg-form-field-input phone" type="text" name="reg-phone" placeholder="Номер телефона*">
+							<span class="modal-reg-form-field-error phone"></span>
+						</div>
+						<div class="modal-reg-form-field">
+							<input class="modal-reg-form-field-input email" type="text" name="reg-email" placeholder="Email*">
+							<span class="modal-reg-form-field-error email"></span>
+						</div>
+						<div class="modal-reg-form-field">
+							<input class="modal-reg-form-field-input pass" type="password" name="reg-pass" placeholder="Пароль">
+							<span class="modal-reg-form-field-error pass"></span>
+						</div>	
+						<div class="modal-reg-form-field">
+							<input class="modal-reg-form-field-input pass-repeat" type="password" name="reg-pass-repeat" placeholder="Пароль еще раз">
+							<span class="modal-reg-form-field-error pass-repeat"></span>
+						</div>
+						<label class="modal-reg-form-field check">
+							<input class="modal-reg-form-field-check-input" type="checkbox" name="reg-check">
+							<span class="modal-reg-form-field-check-text">С условиями <a class="modal-reg-form-field-check-text-link" href="#">политики конфиденциальности</a> согласен</span>
+							<span class="modal-reg-form-field-error check"></span>
+						</label>					
+						<button class="modal-reg-form-submit-button">Войти</button>						
+					</form>
+				</div>
+			</div>
+		</section>	
 		<section id="modal-input">
 			<div class="container modal-input-container">
 				<div class="content modal-input-content">
