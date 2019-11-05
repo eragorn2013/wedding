@@ -359,6 +359,8 @@ $(".modal-reg-form").on('submit', function(){
 
     if(error) return false;
 
+    $(".modal-reg-form-loader").show();
+    $(".modal-reg-form-error-server").text("")
     $.post('registration.php', {
         "name": name,
         "phone": phone,
@@ -367,8 +369,23 @@ $(".modal-reg-form").on('submit', function(){
         "passRepeat": passRepeat,
         "check": check
     }, function(data){
-        data=JSON.parse(data);
-        console.log(data);
+        data=JSON.parse(data);        
+        if(data.error==true){            
+           $(".modal-reg-form-error-server").text(data.message);
+           $(".modal-reg-form-loader").hide(); 
+           return false;
+        }
+        else{
+            $(".modal-reg-form").css({
+                "display": "flex",
+                "justify-content": "center",
+                "align-items": "center"
+            });
+            $(".modal-reg-form").html("<span class='modal-reg-form-ok'>"+data.message+"</span>");
+            $(".modal-reg-form-loader").hide(); 
+        }
+
+
     });
 
     return false;

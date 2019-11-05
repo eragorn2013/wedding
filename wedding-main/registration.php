@@ -1,8 +1,10 @@
 <?php
 
+/*Подключемся к БД*/
 $link=mysqli_connect("server148.hosting.reg.ru", "u0322852_wedbook", "159875321Wedbook", "u0322852_wedbook");
 $salt = "NBP#W5y8WP(VY***j8w95yna785yn9yn9yn9yn9yn,7fffftyftyyn9yn9yn9yn3as443n97";
 
+/*Валидация данных*/
 if(isset($_POST['name']) && !empty($_POST['name'])){
 	$name=trim(htmlspecialchars($_POST['name']));
 }
@@ -42,15 +44,22 @@ else{
 	echo json_encode(["error"=>true, "message"=>"Введите повтор пароля"]);
 	exit();
 }
-
+/*Если введенный пароль с повторным не совпадают*/
 if($pass !== $passRepeat){
 	echo json_encode(["error"=>true, "message"=>"Пароли не совпадают"]);
 	exit();
 }
 
-$pass=md5($pass.$salt);
+/*Если такой адрес электронной почты уже есть в базе*/
+$query=mysqli_query($link,"SELECT email FROM users WHERE email='{$email}'");
+$response=mysqli_num_rows($query);
 
+if($response > 0){
+	echo json_encode(["error"=>true, "message"=>"Такой email уже зарегистрирован"]);
+	exit();
+}
+/*Записываем данные в БД*/
+$pass=md5($pass.$salt);
 mysqli_query($link,"INSERT INTO users SET name='{$name}', phone='{$phone}', email='{$email}', pass='{$pass}'");
 
-
-echo json_encode(["POST"=>$_POST]);
+echo json_encode(["error"=>false, "message"=>"Регистрация прошла успешно"]);

@@ -1189,6 +1189,18 @@ header{
 	opacity: 1;
 	transition: all 0.2s ease-out;
 }
+.modal-reg-form{
+	position: relative;
+}
+.modal-reg-form-loader{
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	top: calc(50% - 64px / 2);
+	left: calc(50% - 64px / 2);
+	z-index: 10;
+	display: none;
+}
 .modal-input-form-field,
 .modal-reg-form-field{
 	margin-bottom: 15px;
