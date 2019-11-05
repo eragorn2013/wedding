@@ -183,7 +183,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/1<?= $expansion ?>" alt="Фотографы" title='Фотографы'>
 							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon photographer"></i>
-								<span class="catalog-item-pic-head-span">Фотографы</span>
+								<a class="catalog-item-pic-head-span" href="#">Фотографы</a>
 								<span class="catalog-item-pic-head-info">
 									<a class="catalog-item-pic-head-item" href="#">Лимузины</a>
 									<a class="catalog-item-pic-head-item" href="#">Кабриолеты</a>
@@ -201,7 +201,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/2<?= $expansion ?>" alt="Видеографы" title='Видеографы'>
 							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon videographer"></i>
-								<span class="catalog-item-pic-head-span">Видеографы</span>
+								<a class="catalog-item-pic-head-span" href="#">Видеографы</a>
 								<span class="catalog-item-pic-head-info">
 									<a class="catalog-item-pic-head-item" href="#">Лимузины</a>
 									<a class="catalog-item-pic-head-item" href="#">Кабриолеты</a>															
@@ -215,7 +215,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/3<?= $expansion ?>" alt="Организаторы" title='Организаторы'>
 							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon organizer"></i>
-								<span class="catalog-item-pic-head-span">Организаторы</span>
+								<a class="catalog-item-pic-head-span" href="#">Организаторы</a>
 								<span class="catalog-item-pic-head-info">
 									<a class="catalog-item-pic-head-item" href="#">Лимузины</a>
 									<a class="catalog-item-pic-head-item" href="#">Кабриолеты</a>
@@ -239,7 +239,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/4<?= $expansion ?>" alt="Оформители" title='Оформители'>
 							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon designer"></i>
-								<span class="catalog-item-pic-head-span">Оформители</span>
+								<a class="catalog-item-pic-head-span" href="#">Оформители</a>
 								<span class="catalog-item-pic-head-info">
 									<a class="catalog-item-pic-head-item" href="#">Лимузины</a>
 									<a class="catalog-item-pic-head-item" href="#">Кабриолеты</a>
@@ -260,12 +260,12 @@
 							<img class="catalog-item-pic-img" src="img/pic/5<?= $expansion ?>" alt="Музыканты" title='Музыканты'>
 							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon musicians"></i>
-								<span class="catalog-item-pic-head-span">Музыканты</span>
+								<a class="catalog-item-pic-head-span" href="#">Музыканты</a>
 								<span class="catalog-item-pic-head-info">
 									<a class="catalog-item-pic-head-item" href="#">Лимузины</a>
 									<a class="catalog-item-pic-head-item" href="#">Ретро</a>
 									<a class="catalog-item-pic-head-item" href="#">Микроавтобусы</a>
-									<a class="catalog-item-pic-head-item" href="#">Кареты</a>																
+									<a class="catalog-item-pic-head-item" href="#">Кареты</a>								
 								</span>
 							</span>
 						</span>						
@@ -276,7 +276,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/6<?= $expansion ?>" alt="Артисты" title='Артисты'>
 							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon artists"></i>
-								<span class="catalog-item-pic-head-span">Артисты</span>
+								<a class="catalog-item-pic-head-span" href="#">Артисты</a>
 								<span class="catalog-item-pic-head-info">
 									<a class="catalog-item-pic-head-item" href="#">Лимузины</a>
 									<a class="catalog-item-pic-head-item" href="#">Ретро</a>
@@ -292,7 +292,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/7<?= $expansion ?>" alt="Флористы" title='Флористы'>
 							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon florists"></i>
-								<span class="catalog-item-pic-head-span">Флористы</span>
+								<a class="catalog-item-pic-head-span" href="#">Флористы</a>
 								<span class="catalog-item-pic-head-info">
 									<a class="catalog-item-pic-head-item" href="#">Лимузины</a>
 									<a class="catalog-item-pic-head-item" href="#">Ретро</a>
@@ -307,7 +307,7 @@
 							<img class="catalog-item-pic-img" src="img/pic/8<?= $expansion ?>" alt="Транспорт" title='Транспорт'>
 							<span class="catalog-item-pic-head">
 								<i class="catalog-item-pic-head-icon transport"></i>
-								<span class="catalog-item-pic-head-span">Транспорт</span>
+								<a class="catalog-item-pic-head-span" href="#">Транспорт</a>
 								<span class="catalog-item-pic-head-info">
 									<a class="catalog-item-pic-head-item" href="#">Лимузины</a>
 									<a class="catalog-item-pic-head-item" href="#">Ретро</a>
