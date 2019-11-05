@@ -1193,6 +1193,13 @@ header{
 .modal-reg-form-field{
 	margin-bottom: 15px;
 }
+.modal-reg-form-error-server{
+	margin-bottom: 10px;
+	width: 100%;
+	display: block;
+	color: #c72e32;
+	text-align: center;
+}
 .modal-reg-form-field.check{
 	display: flex;
 	align-items: center;

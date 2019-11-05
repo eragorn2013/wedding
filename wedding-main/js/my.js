@@ -357,10 +357,22 @@ $(".modal-reg-form").on('submit', function(){
         }
     });
 
-
-
     if(error) return false;
+
+    $.post('registration.php', {
+        "name": name,
+        "phone": phone,
+        "email": email,
+        "pass": pass,
+        "passRepeat": passRepeat,
+        "check": check
+    }, function(data){
+        data=JSON.parse(data);
+        console.log(data);
+    });
+
     return false;
+    
 });
 
 

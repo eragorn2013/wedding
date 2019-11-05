@@ -1107,9 +1107,11 @@
 		</footer>
 		<section id="modal-reg">
 			<div class="container modal-reg-container">
+				<h3>Регистрация</h3>
 				<div class="content modal-reg-content">
 					<i class="modal-reg-close"></i>
-					<form class="modal-reg-form">
+					<form class="modal-reg-form" action="#" method="post">
+						<span class="modal-reg-form-error-server"></span>
 						<div class="modal-reg-form-field">
 							<input class="modal-reg-form-field-input name" type="text" name="reg-name" placeholder="Имя*">
 							<span class="modal-reg-form-field-error name"></span>
