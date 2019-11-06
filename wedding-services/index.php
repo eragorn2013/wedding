@@ -146,6 +146,125 @@
 								</select>
 								<a class="card-all-left-services-text-action-link" href="#">Заказать услугу за 12 500 р</a>
 							</div>						
+						</div>						
+						<div class="card-all-left-portfolio">
+							<h3 class="card-all-left-portfolio-head head-left-h">Примеры работ</h3>
+							<div class="card-all-left-portfolio-wrap">
+								<div class="card-all-left-portfolio-item">
+									<img class="card-all-left-portfolio-item-img" src="img/services/1.webp" alt="">
+								</div>
+								<div class="card-all-left-portfolio-item">
+									<img class="card-all-left-portfolio-item-img" src="img/services/2.webp" alt="">
+								</div>
+								<div class="card-all-left-portfolio-item">
+									<img class="card-all-left-portfolio-item-img" src="img/services/3.webp" alt="">
+								</div>
+							</div>
+							<div class="card-all-left-portfolio-links">
+								<a class="card-all-left-portfolio-link" href="#">http://taplink.viewworks_1</a>
+								<a class="card-all-left-portfolio-link" href="#">http://taplink.viewworks_2</a>
+								<a class="card-all-left-portfolio-link" href="#">http://taplink.viewworks_3</a>
+							</div>
+						</div>
+
+						<div class="card-all-left-comments">
+							<h3 class="card-all-left-comments-head head-left">Отзывы об услуге Съемка свадьбы целый день</h3>
+							<div class="card-all-left-comments-wrap">
+								<div class="card-all-left-comments-item">
+									<p class="card-all-left-comments-item-p">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugia.</p>
+									<div class="card-all-left-comments-item-persona">
+										<div class="card-all-left-comments-item-persona-avatar">
+											<img class="card-all-left-comments-item-persona-avatar-img" src="img/comments/1.webp" alt="">
+										</div>
+										<span class='card-all-left-comments-item-persona-name'>Антон и Таня Моргуно</span>
+									</div>
+								</div>
+								<div class="card-all-left-comments-item">
+									<p class="card-all-left-comments-item-p">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugia.</p>
+									<div class="card-all-left-comments-item-persona">
+										<div class="card-all-left-comments-item-persona-avatar">
+											<img class="card-all-left-comments-item-persona-avatar-img" src="img/comments/1.webp" alt="">
+										</div>
+										<span class='card-all-left-comments-item-persona-name'>Антон и Таня Моргуно</span>
+									</div>
+								</div>
+								<div class="card-all-left-comments-item">
+									<p class="card-all-left-comments-item-p">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugia.</p>
+									<div class="card-all-left-comments-item-persona">
+										<div class="card-all-left-comments-item-persona-avatar">
+											<img class="card-all-left-comments-item-persona-avatar-img" src="img/comments/1.webp" alt="">
+										</div>
+										<span class='card-all-left-comments-item-persona-name'>Антон и Таня Моргуно</span>
+									</div>
+								</div>
+							</div>
+							<a class="card-all-left-comments-more" href="#">Показать все отзывы</a>
+						</div>
+
+						<div class="card-all-left-services">
+							<h3 class="card-all-left-services-head head-left">Услуги:</h3>
+							<div class="card-all-left-services-wrap">
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/1<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/2<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/3<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/4<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/1<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/2<?= $expansion ?>" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>										
+							</div>
 						</div>
 						
 					</div>						
