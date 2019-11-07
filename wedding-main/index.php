@@ -37,7 +37,7 @@
 					</div>
 					<div class="header-auth">
 						<a class="header-auth-link input" href="#">Войти</a>
-						<a class="header-auth-link reg" href="#">Регистрация</a>
+						<a class="header-auth-link reg open-reg" href="#">Регистрация</a>
 					</div>					
 				</div>
 			</div>
@@ -127,7 +127,7 @@
 							</div>
 						</li>
 					</ul>					
-					<a class="offer-reg-link" href="#">Регистрация</a>
+					<a class="offer-reg-link open-reg" href="#">Регистрация</a>
 				</div>
 			</div>
 			<div class="offer-waves"></div>

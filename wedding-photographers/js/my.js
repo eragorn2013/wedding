@@ -184,7 +184,7 @@ $(".top-platforms-container-arrow.prev").on('click', function(){
 
 /*Модальное окно "Регистрация"*/
 
-$(".header-auth-link.reg").on('click', function(){    
+$(".open-reg").on('click', function(){    
     if($("#modal-reg").is(":hidden")){
         $("#modal-reg").stop().fadeIn(200, function(){
             $(".modal-reg-content").stop().slideDown(200);
