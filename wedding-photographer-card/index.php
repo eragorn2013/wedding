@@ -383,7 +383,8 @@
 					</div>
 				</div>
 			</div>
-		</footer>
+		</footer>		
+		</section>
 		<section id="modal-reg">
 			<div class="container modal-reg-container">
 				<h3>Регистрация</h3>
