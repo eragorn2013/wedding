@@ -15,7 +15,8 @@
 	<meta charset="UTF-8">
 	<title>Главный свадебный портал</title>
 	<meta name="description" content="">
-	<meta name="keywords" content="">	
+	<meta name="keywords" content="">
+	<link rel="stylesheet" type="text/css" href="css/style.css?1810191504">	
 </head>
 <body>
 	<div class="wrapper">
@@ -1232,8 +1233,7 @@
     <link rel="stylesheet" type="text/css" href="js/owlcarousel/owl.theme.green.css">
     <link rel="stylesheet" type="text/css" href="js/calendar/jquery-ui.min.css">
     <link rel="stylesheet" type="text/css" href="js/lightgallery/dist/css/lightgallery.min.css">
-	<link rel="stylesheet" type="text/css" href="js/kladr/jquery.kladr.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css?1810191504">
+	<link rel="stylesheet" type="text/css" href="js/kladr/jquery.kladr.min.css">	
 	<script src="js/jquery/jquery-3.4.1.js"></script>
 	<script src="js/kladr/jquery.kladr.min.js"></script>	
 	<script src='js/owlcarousel/owl.carousel.min.js'></script>
