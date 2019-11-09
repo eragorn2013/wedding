@@ -917,7 +917,8 @@ footer{
 	z-index: 1000;
 	top: 0;
 	left: 0;
-	
+	overflow: auto;
+	display: none;
 }
 .modal-date-container{
 	position: relative;
@@ -932,6 +933,7 @@ footer{
 	background: #fff;
 	padding: 80px;
 	position: relative;
+	display: none;
 }
 .modal-date-close{
 	position: absolute;
@@ -999,12 +1001,27 @@ footer{
 }
 .modal-date-socials-link.vk{
 	background: #4a719e;
+	transition: all 0.2s ease-out;
+}
+.modal-date-socials-link.vk:hover{
+	background: #3d6592;
+	transition: all 0.2s ease-out;
 }
 .modal-date-socials-link.gl{
 	background: #d64b40;
+	transition: all 0.2s ease-out;
+}
+.modal-date-socials-link.gl:hover{
+	background: #c3372c;
+	transition: all 0.2s ease-out;
 }
 .modal-date-socials-link.fb{
 	background: #3a569a;
+	transition: all 0.2s ease-out;
+}
+.modal-date-socials-link.fb:hover{
+	background: #314c8d;
+	transition: all 0.2s ease-out;
 }
 .modal-date-socials-link-icon{
 	display: inline-block;
@@ -1761,6 +1778,14 @@ footer{
 		padding: 10px 30px;		
 		border-radius: 30px;		
 	}
+
+	.modal-date-content {
+	    width: 57%;   
+	    padding: 40px;	    
+	}
+	.modal-date-wrap {	    
+	    margin-bottom: 30px;
+	}
 }
 @media (max-width: 920px) and (min-width:640px){	
 
@@ -2250,6 +2275,22 @@ footer{
 	.modal-reg-form-submit-button{		
 		padding: 10px 30px;		
 		border-radius: 30px;		
+	}
+
+	.modal-date-content {
+	    width: 57%;   
+	    padding: 40px;	    
+	}
+	.modal-date-wrap {	    
+	    margin-bottom: 30px;
+	}
+
+	.modal-date-content {
+	    width: 74%;
+	    padding: 40px;
+	}
+	.modal-date-socials-link {	    
+	    padding: 11px 25px;
 	}
 
 }
@@ -2777,6 +2818,44 @@ footer{
 	.modal-reg-form-submit-button{		
 		padding: 10px 30px;		
 		border-radius: 30px;		
+	}
+
+	.modal-date-content {
+	    width: 100%;
+	    padding: 30px;
+	}
+	.modal-date-close {	    
+	    right: 0px;	 
+	    top: -50px;	   
+	}
+	.modal-date-head {	   
+	    font-size: 22px;
+	    margin-bottom: 15px;
+	}
+	.modal-date-label {
+	    width: 100%;
+	    display: block;
+	}
+	.modal-date-input{
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.modal-date-calendar {	   
+	    top: 12px;	   
+	}
+	.modal-date-socials-link {
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+	.modal-date-socials-link:last-child {	    
+	    margin-bottom: 0px;
+	}
+	.modal-date-submit {
+	    width: 100%;
+	}
+	.modal-date-wrap{
+		margin-bottom: 20px;
 	}
 }
 
@@ -3317,6 +3396,47 @@ footer{
 		border-radius: 30px;	
 		width: 100%;
 		margin-top: 6px;	
+	}
+
+	.modal-date-content {
+	    width: 100%;
+	    padding: 30px;
+	}
+	.modal-date-close {	    
+	    right: 0px;	 
+	    top: -50px;	   
+	}
+	.modal-date-head {	   
+	    font-size: 22px;
+	    margin-bottom: 15px;
+	}
+	.modal-date-label {
+	    width: 100%;
+	    display: block;
+	}
+	.modal-date-input{
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.modal-date-calendar {	   
+	    top: 12px;	   
+	}
+	.modal-date-socials-link {
+	    width: 100%;
+	    margin-bottom: 10px;
+	}
+	.modal-date-socials-link:last-child {	    
+	    margin-bottom: 0px;
+	}
+	.modal-date-submit {
+	    width: 100%;
+	}
+	.modal-date-wrap{
+		margin-bottom: 20px;
+	}
+	.modal-date-info br{
+		display: none;
 	}
 }
 

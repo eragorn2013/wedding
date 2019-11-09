@@ -309,7 +309,7 @@
 							</div>	
 							<div class="card-all-right-item-submit">
 								<p class="card-all-right-item-submit-text">Свободен на 23 февраля 2020</p>
-								<a class="card-all-right-item-submit-link" href="#">Проверить свою дату</a>
+								<a class="card-all-right-item-submit-link open-date" href="#">Проверить свою дату</a>
 							</div>						
 						</div>
 					</div>
@@ -501,6 +501,7 @@
 	</div>	
 	<link rel="stylesheet" type="text/css" href="js/owlcarousel/owl.carousel.css?2209191335">  
     <link rel="stylesheet" type="text/css" href="js/owlcarousel/owl.theme.green.css">
+    <link rel="stylesheet" type="text/css" href="js/calendar/jquery-ui.min.css">
     <link rel="stylesheet" type="text/css" href="js/lightgallery/dist/css/lightgallery.min.css">
 	<link rel="stylesheet" type="text/css" href="js/kladr/jquery.kladr.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css?2709191842">
@@ -510,6 +511,8 @@
 	<script src='js/lightgallery/dist/js/lightgallery.min.js'></script>
 	<script src='js/lightgallery/modules/lg-video.min.js'></script>
 	<script src="js/maskedinput/maskedinput.min.js"></script>
+	<script src="js/calendar/jquery-ui.min.js"></script>
 	<script src="js/my.js?2709191842"></script>		
+	<script src="js/calendar/ru.js"></script>
 </body>
 </html>
