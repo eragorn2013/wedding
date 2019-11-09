@@ -1105,6 +1105,44 @@
 				</div>
 			</div>
 		</footer>
+		<section id="modal-date">
+			<div class="container modal-date-container">
+				<div class="content modal-date-content">
+					<i class="modal-date-close"></i>
+					<form class="modal-date-form" action="#" method="post">
+						<div class="modal-date-wrap">
+							<h3 class="modal-date-head">Проверить доступную дату</h3>
+							<label class="modal-date-label">
+								<input class='modal-date-input date' type="text" name="modal-date-date" placeholder="Дата">
+								<i class="modal-date-calendar"></i>
+							</label>
+						</div>
+						<div class="modal-date-wrap last">
+							<h3 class="modal-date-head">Зарегистрироваться на сайте</h3>
+							<label class="modal-date-label">
+								<input class='modal-date-input phone' type="text" name="modal-date-phone" placeholder="Телефон">
+							</label>
+						</div>
+						<div class="modal-date-socials">
+							<a class="modal-date-socials-link vk" href="#">
+								<i class="modal-date-socials-link-icon vk"></i>
+								<span class="modal-date-socials-link-span">Вконтакте</span>
+							</a>
+							<a class="modal-date-socials-link gl" href="#">
+								<i class="modal-date-socials-link-icon gl"></i>
+								<span class="modal-date-socials-link-span">Google</span>
+							</a>
+							<a class="modal-date-socials-link fb" href="#">
+								<i class="modal-date-socials-link-icon fb"></i>
+								<span class="modal-date-socials-link-span">Facebook</span>
+							</a>
+						</div>
+						<p class="modal-date-info">Данную услугу можно оплатить с помощью<br> нашего сервиса</p>
+						<button class='modal-date-submit'>Заказать услугу за 12 500 р</button>
+					</form>
+				</div>
+			</div>
+		</section>
 		<section id="modal-reg">
 			<div class="container modal-reg-container">
 				<h3>Регистрация</h3>
@@ -1192,6 +1230,7 @@
 	</div>	
 	<link rel="stylesheet" type="text/css" href="js/owlcarousel/owl.carousel.css?2209191335">  
     <link rel="stylesheet" type="text/css" href="js/owlcarousel/owl.theme.green.css">
+    <link rel="stylesheet" type="text/css" href="js/calendar/jquery-ui.min.css">
     <link rel="stylesheet" type="text/css" href="js/lightgallery/dist/css/lightgallery.min.css">
 	<link rel="stylesheet" type="text/css" href="js/kladr/jquery.kladr.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css?1810191504">
@@ -1201,7 +1240,9 @@
 	<script src='js/lightgallery/dist/js/lightgallery.min.js'></script>
 	<script src='js/lightgallery/modules/lg-video.min.js'></script>
 	<script src="js/maskedinput/maskedinput.min.js"></script>
+	<script src="js/calendar/jquery-ui.min.js"></script>
 	<script src="js/my.js?2409191705"></script>	
+	<script src="js/calendar/ru.js"></script>
 	<style type="text/css">				
 		.nav-list-item-link.submenu-icon:after, .header-logo-link-city-icon,
 		.offer-counters-list-item-icon, .catalog-item-pic-head-icon, 

@@ -947,9 +947,6 @@ footer{
     background-repeat: no-repeat;
     cursor: pointer;
 }
-.modal-date-form{
-
-}
 .modal-date-wrap{
 	text-align: center;
 	margin-bottom: 62px;
@@ -2277,10 +2274,6 @@ footer{
 		border-radius: 30px;		
 	}
 
-	.modal-date-content {
-	    width: 57%;   
-	    padding: 40px;	    
-	}
 	.modal-date-wrap {	    
 	    margin-bottom: 30px;
 	}

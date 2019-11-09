@@ -1,3 +1,29 @@
+/*Модальное окно Проверить свободную дату*/
+
+$(".open-date").on('click', function(){
+    if($("#modal-date").is(":hidden")){
+        $("#modal-date").stop().fadeIn(200, function(){
+            $(".modal-date-content").stop().slideDown(200);
+        });
+    }
+    return false;
+});
+
+$("#modal-date, .modal-date-close").on("click", function(){
+    $(".modal-date-content").stop().slideUp(200, function(){
+        $("#modal-date").stop().fadeOut(200, function(){
+            
+        });
+    });
+});
+$(".modal-date-content").on("click", function(e){
+    e.stopPropagation();
+});
+
+$( ".modal-date-input.date" ).datepicker({
+    dateFormat: 'dd.mm.yy',
+});
+
 /*Читать полностью*/
 
 $(".blocks-item-wrap-more").on('click', function(){
@@ -28,7 +54,7 @@ $(".not-working-form").on('submit', function(){
 });
 /*Маска для ввода номера телефона*/
 
-$(".not-working-form-input, .modal-input-form-field-input.phone, .modal-reg-form-field-input.phone").mask("+7(999)999-99-99", {completed:function(){
+$(".not-working-form-input, .modal-input-form-field-input.phone, .modal-reg-form-field-input.phone, .modal-date-input.phone").mask("+7(999)999-99-99", {completed:function(){
     if($(".modal-reg-form-field-input.phone").hasClass("error")){
         $(".modal-reg-form-field-error.phone").text("");
         $(".modal-reg-form-field-input.phone").removeClass("error");

@@ -46,7 +46,7 @@ $(".not-working-form").on('submit', function(){
 });
 /*Маска для ввода номера телефона*/
 
-$(".not-working-form-input, .modal-input-form-field-input.phone, .modal-reg-form-field-input.phone,.modal-date-input.phone").mask("+7(999)999-99-99", {completed:function(){
+$(".not-working-form-input, .modal-input-form-field-input.phone, .modal-reg-form-field-input.phone, .modal-date-input.phone").mask("+7(999)999-99-99", {completed:function(){
     if($(".modal-reg-form-field-input.phone").hasClass("error")){
         $(".modal-reg-form-field-error.phone").text("");
         $(".modal-reg-form-field-input.phone").removeClass("error");
