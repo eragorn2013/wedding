@@ -124,14 +124,233 @@
 					<a class="card-menu-item" href="#">Видео (44)</a>
 				</div>
 			</div>
-		</section>
-
+		</section>	 
 		<section id="card-all">
 			<div class="container">
 				<div class="content card-all-content">
 					<div class="card-all-left">
-						
-						
+						<h1 class="card-all-left-head head-left-h">Акции и скидки</h1>
+						<div class="card-all-left-discounts">
+							<div class="card-all-left-discounts-item">
+								<div class="card-all-left-discounts-item-content">
+									<h2 class="card-all-left-discounts-item-head head-center-h">Розыгрыш романтической Love story в Воронеже</h2>
+									<div class="card-all-left-discounts-item-date">
+										<span class="card-all-left-discounts-item-date-span">с 11.12.2019 по 01.02.2020</span>
+										<span class="card-all-left-discounts-item-date-span">(осталось 22 дня до завершения)</span>
+									</div>
+									<div class="card-all-left-discounts-item-wrap">
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Традиционно, в самом начале свадебного сезона, я проведу розыгрыш романтической фотосессии Love story для одной пары. Победители, которые будут определены при помощи рандомного выбора, получат:</h3>
+											<ol class="card-all-left-discounts-item-point-ul">
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+											</ol>
+										</div>
+
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Чтобы участвовать в розыгрыше, необходимо выполнить три действия:</h3>
+											<ol class="card-all-left-discounts-item-point-ul">
+												<li class="card-all-left-discounts-item-point-ul-li num">Добавиться ко мне в друзья: https://vk.com/dashkeria</li>
+												<li class="card-all-left-discounts-item-point-ul-li num">Стать участником группы https://vk.com/foto.guseva</li>
+												<li class="card-all-left-discounts-item-point-ul-li num">Сделать репост записи к себе на стену и не удалять до 10 мая.</li>
+											</ol>
+										</div>
+
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Розыгрыш состоится 10 мая и мы определим счастливчиков, которые получат свое романтическое приключение этой весной.</h3>
+										</div>
+									</div>
+									<p class="card-all-left-discounts-item-info">P.S. Если вы планируете свадьбу этим летом, то, участвуя в розыгрыше, вы автоматически получаете скидку 10% на все мои свадебные предложения.</p>
+								</div>
+							</div>
+
+							<div class="card-all-left-discounts-item">
+								<div class="card-all-left-discounts-item-content">
+									<h2 class="card-all-left-discounts-item-head head-center-h">Розыгрыш романтической Love story в Воронеже</h2>
+									<div class="card-all-left-discounts-item-date">
+										<span class="card-all-left-discounts-item-date-span">с 11.12.2019 по 01.02.2020</span>
+										<span class="card-all-left-discounts-item-date-span">(осталось 22 дня до завершения)</span>
+									</div>
+									<div class="card-all-left-discounts-item-wrap">
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Традиционно, в самом начале свадебного сезона, я проведу розыгрыш романтической фотосессии Love story для одной пары. Победители, которые будут определены при помощи рандомного выбора, получат:</h3>
+											<ol class="card-all-left-discounts-item-point-ul">
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+											</ol>
+										</div>
+
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Чтобы участвовать в розыгрыше, необходимо выполнить три действия:</h3>
+											<ol class="card-all-left-discounts-item-point-ul">
+												<li class="card-all-left-discounts-item-point-ul-li num">Добавиться ко мне в друзья: https://vk.com/dashkeria</li>
+												<li class="card-all-left-discounts-item-point-ul-li num">Стать участником группы https://vk.com/foto.guseva</li>
+												<li class="card-all-left-discounts-item-point-ul-li num">Сделать репост записи к себе на стену и не удалять до 10 мая.</li>
+											</ol>
+										</div>
+
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Розыгрыш состоится 10 мая и мы определим счастливчиков, которые получат свое романтическое приключение этой весной.</h3>
+										</div>
+									</div>
+									<p class="card-all-left-discounts-item-info">P.S. Если вы планируете свадьбу этим летом, то, участвуя в розыгрыше, вы автоматически получаете скидку 10% на все мои свадебные предложения.</p>
+								</div>
+							</div>
+
+							<div class="card-all-left-discounts-item">
+								<div class="card-all-left-discounts-item-content">
+									<h2 class="card-all-left-discounts-item-head head-center-h">Розыгрыш романтической Love story в Воронеже</h2>
+									<div class="card-all-left-discounts-item-date">
+										<span class="card-all-left-discounts-item-date-span">с 11.12.2019 по 01.02.2020</span>
+										<span class="card-all-left-discounts-item-date-span">(осталось 22 дня до завершения)</span>
+									</div>
+									<div class="card-all-left-discounts-item-wrap">
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Традиционно, в самом начале свадебного сезона, я проведу розыгрыш романтической фотосессии Love story для одной пары. Победители, которые будут определены при помощи рандомного выбора, получат:</h3>
+											<ol class="card-all-left-discounts-item-point-ul">
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+											</ol>
+										</div>
+
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Чтобы участвовать в розыгрыше, необходимо выполнить три действия:</h3>
+											<ol class="card-all-left-discounts-item-point-ul">
+												<li class="card-all-left-discounts-item-point-ul-li num">Добавиться ко мне в друзья: https://vk.com/dashkeria</li>
+												<li class="card-all-left-discounts-item-point-ul-li num">Стать участником группы https://vk.com/foto.guseva</li>
+												<li class="card-all-left-discounts-item-point-ul-li num">Сделать репост записи к себе на стену и не удалять до 10 мая.</li>
+											</ol>
+										</div>
+
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Розыгрыш состоится 10 мая и мы определим счастливчиков, которые получат свое романтическое приключение этой весной.</h3>
+										</div>
+									</div>
+									<p class="card-all-left-discounts-item-info">P.S. Если вы планируете свадьбу этим летом, то, участвуя в розыгрыше, вы автоматически получаете скидку 10% на все мои свадебные предложения.</p>
+								</div>
+							</div>
+
+							<div class="card-all-left-discounts-item">
+								<div class="card-all-left-discounts-item-content">
+									<h2 class="card-all-left-discounts-item-head head-center-h">Розыгрыш романтической Love story в Воронеже</h2>
+									<div class="card-all-left-discounts-item-date">
+										<span class="card-all-left-discounts-item-date-span">с 11.12.2019 по 01.02.2020</span>
+										<span class="card-all-left-discounts-item-date-span">(осталось 22 дня до завершения)</span>
+									</div>
+									<div class="card-all-left-discounts-item-wrap">
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Традиционно, в самом начале свадебного сезона, я проведу розыгрыш романтической фотосессии Love story для одной пары. Победители, которые будут определены при помощи рандомного выбора, получат:</h3>
+											<ol class="card-all-left-discounts-item-point-ul">
+												<li class="card-all-left-discounts-item-point-ul-li check">полноценную фотосессию для двоих 1,5 часа</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">80 фотографии с цветокорекцией и ретушью</li>
+												<li class="card-all-left-discounts-item-point-ul-li check">положительные эмоции и кадры, где вы только вдвоем</li>
+											</ol>
+										</div>
+
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Чтобы участвовать в розыгрыше, необходимо выполнить три действия:</h3>
+											<ol class="card-all-left-discounts-item-point-ul">
+												<li class="card-all-left-discounts-item-point-ul-li num">Добавиться ко мне в друзья: https://vk.com/dashkeria</li>
+												<li class="card-all-left-discounts-item-point-ul-li num">Стать участником группы https://vk.com/foto.guseva</li>
+												<li class="card-all-left-discounts-item-point-ul-li num">Сделать репост записи к себе на стену и не удалять до 10 мая.</li>
+											</ol>
+										</div>
+
+										<div class="card-all-left-discounts-item-point">
+											<h3 class='card-all-left-discounts-item-head-h3'>Розыгрыш состоится 10 мая и мы определим счастливчиков, которые получат свое романтическое приключение этой весной.</h3>
+										</div>
+									</div>
+									<p class="card-all-left-discounts-item-info">P.S. Если вы планируете свадьбу этим летом, то, участвуя в розыгрыше, вы автоматически получаете скидку 10% на все мои свадебные предложения.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-all-left-services">
+							<h3 class="card-all-left-services-head head-left">Услуги:</h3>
+							<div class="card-all-left-services-wrap">
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/1.webp" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/2.webp" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/3.webp" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/4.webp" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/1.webp" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>
+								<a class="card-all-left-services-item" href="#">
+									<img class="card-all-left-services-item-img" src="img/services/2.webp" alt="">
+									<span class="card-all-left-services-item-name">Фотосъемка</span>
+									<span class="card-all-left-services-item-hidden">
+										<span class="card-all-left-services-item-hidden-wrap">
+											<span class="card-all-left-services-item-hidden-p">от 30000р. за 10 часовой рабочий день</span>
+											<span class="card-all-left-services-item-hidden-link">Подробнее</span>
+										</span>
+									</span>
+								</a>										
+							</div>
+						</div>
 					</div>						
 					<div class="card-all-right">
 						<div class="card-all-right-item">
