@@ -14,8 +14,7 @@
 .owl-carousel-6,
 .owl-carousel-7,
 .owl-carousel-8,
-.owl-carousel-9 {
-  display: none;
+.owl-carousel-9 {  
   width: 100%;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
