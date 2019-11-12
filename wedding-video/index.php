@@ -130,7 +130,7 @@
 				<div class="content card-all-content">
 					<div class="card-all-left">
 						<div class="card-all-left-video">
-							
+							<h1 class="card-all-left-video-head head-left-h">Свадьба Димы и Кати</h1>
 						</div>
 					</div>						
 					<div class="card-all-right">
