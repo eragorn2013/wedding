@@ -131,6 +131,18 @@
 					<div class="card-all-left">
 						<div class="card-all-left-video">
 							<h1 class="card-all-left-video-head head-left-h">Свадьба Димы и Кати</h1>
+							<div class="card-all-left-video-wrap">
+								<a class="card-all-left-video-item big" href="https://www.youtube.com/watch?v=W6kENxxxLVI"><img class="card-all-left-video-item-img" src="//img.youtube.com/vi/W6kENxxxLVI/0.jpg"></a>
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=D_WQVfVKY6U"><img class="card-all-left-video-item-img" src="//img.youtube.com/vi/D_WQVfVKY6U/0.jpg"></a>
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=z7rFrc5kqOk"><img class="card-all-left-video-item-img" src="//img.youtube.com/vi/z7rFrc5kqOk/0.jpg"></a>
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=SOVAXb_WkZo"><img class="card-all-left-video-item-img"src="//img.youtube.com/vi/SOVAXb_WkZo/0.jpg"></a>
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=gF9SCTj_1I4"><img class="card-all-left-video-item-img"src="//img.youtube.com/vi/gF9SCTj_1I4/0.jpg"></a>
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=5Up8yphusRE"><img class="card-all-left-video-item-img" src="//img.youtube.com/vi/5Up8yphusRE/0.jpg"></a>				
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=ULKiZZxzPiU"><img class="card-all-left-video-item-img" src="//img.youtube.com/vi/ULKiZZxzPiU/0.jpg"></a>
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=ri8nn-ErpnU"><img class="card-all-left-video-item-img"src="//img.youtube.com/vi/ri8nn-ErpnU/0.jpg"></a>
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=se5TScH2Ds0"><img class="card-all-left-video-item-img" src="//img.youtube.com/vi/se5TScH2Ds0/0.jpg"></a>
+								<a class="card-all-left-video-item" href="https://www.youtube.com/watch?v=rANTaK8X1r4"><img class="card-all-left-video-item-img" src="//img.youtube.com/vi/rANTaK8X1r4/0.jpg"></a>
+							</div>
 						</div>
 					</div>						
 					<div class="card-all-right">

@@ -104,7 +104,7 @@ $(window).on('resize', function(){
 
 /*lightgallery*/
 
-$('.portfolio-wrap').lightGallery();
+$('.portfolio-wrap, .card-all-left-video-wrap').lightGallery();
 
 /*Открываем видео*/
 
