@@ -237,6 +237,7 @@
 									</span>
 								</a>										
 							</div>
+							<a class="card-all-left-comments-more" href="#">Все услуги Николая</a>
 						</div>
 						
 					</div>						
